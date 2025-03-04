@@ -1,272 +1,544 @@
-HTTrack3.49-2+htsswf+htsjava launched on Sun, 02 Mar 2025 15:59:42 at https://vivuviet.vn/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://vivuviet.vn/ -O1 "D:\itomo\vivuviet\vivuviet" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
-
-Information, Warnings and Errors reported for this mirror:
-note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
-	such as username/password authentication for websites mirrored in this project
-	do not share these files/folders if you want these information to remain private
-
-16:00:26	Error: 	"Method Not Allowed" (405) at link https://vivuviet.vn/xmlrpc.php (from https://vivuviet.vn/)
-16:01:07	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/10/cropped-Vivuviet-favicon-32x32.png (from https://vivuviet.vn/)
-16:01:09	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/10/cropped-Vivuviet-favicon-192x192.png (from https://vivuviet.vn/)
-16:04:34	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/tour/du-lich-cat-ba-3-ngay-2-dem/ (from https://vivuviet.vn/)
-16:06:12	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/tour/du-lich-moc-chau-2-ngay-1-dem/ (from https://vivuviet.vn/danh-muc/du-lich-mien-bac/)
-16:06:43	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-ninh-binh/feed/ (from https://vivuviet.vn/danh-muc/du-lich-ninh-binh/)
-16:06:53	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/tour/du-lich-ho-ba-be-thac-ban-gioc-3-ngay-2-dem/ (from https://vivuviet.vn/danh-muc/du-lich-cao-bang/)
-16:06:56	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-hai-phong/feed/ (from https://vivuviet.vn/danh-muc/du-lich-hai-phong/)
-16:06:56	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-quang-ninh/feed/ (from https://vivuviet.vn/danh-muc/du-lich-quang-ninh/)
-16:07:01	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-bac-ninh/feed/ (from https://vivuviet.vn/danh-muc/du-lich-bac-ninh/)
-16:07:01	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/tour/du-lich-mien-trung-da-nang-hoi-an-hue-dong-hoi-4-ngay-3-dem/ (from https://vivuviet.vn/danh-muc/du-lich-mien-trung/)
-16:07:05	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/tour/du-lich-vung-tau-phan-thiet-mui-ne-5-ngay-4-dem/ (from https://vivuviet.vn/danh-muc/du-lich-mien-trung/)
-16:07:17	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/tour/du-lich-nha-trang-4-ngay-3-dem/ (from https://vivuviet.vn/danh-muc/du-lich-mien-trung/)
-16:07:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-nghe-an/feed/ (from https://vivuviet.vn/danh-muc/du-lich-nghe-an/)
-16:07:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-ninh-thuan/feed/ (from https://vivuviet.vn/danh-muc/du-lich-ninh-thuan/)
-16:07:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-hoi-an/feed/ (from https://vivuviet.vn/danh-muc/du-lich-hoi-an/)
-16:07:28	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-mien-nam/feed/ (from https://vivuviet.vn/danh-muc/du-lich-mien-nam/)
-16:07:30	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/tour/du-lich-phu-quoc-4-ngay-3-dem/ (from https://vivuviet.vn/danh-muc/du-lich-phu-quoc/)
-16:07:32	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-vung-tau/feed/ (from https://vivuviet.vn/danh-muc/du-lich-vung-tau/)
-16:07:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-con-dao/feed/ (from https://vivuviet.vn/danh-muc/du-lich-con-dao/)
-16:07:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-mien-nam-du-lich-mien-nam/feed/ (from https://vivuviet.vn/danh-muc/du-lich-mien-nam-du-lich-mien-nam/)
-16:07:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-han-quoc/feed/ (from https://vivuviet.vn/danh-muc/du-lich-han-quoc/)
-16:07:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-brunei/feed/ (from https://vivuviet.vn/danh-muc/du-lich-brunei/)
-16:07:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-campuchia/feed/ (from https://vivuviet.vn/danh-muc/du-lich-campuchia/)
-16:07:39	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-dai-loan/feed/ (from https://vivuviet.vn/danh-muc/du-lich-dai-loan/)
-16:07:41	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-singapore/feed/ (from https://vivuviet.vn/danh-muc/du-lich-singapore/)
-16:07:41	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-nhat-ban/feed/ (from https://vivuviet.vn/danh-muc/du-lich-nhat-ban/)
-16:07:42	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-madilves/feed/ (from https://vivuviet.vn/danh-muc/du-lich-madilves/)
-16:07:42	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-anh/feed/ (from https://vivuviet.vn/danh-muc/du-lich-anh/)
-16:07:42	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-phap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-phap/)
-16:07:42	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-ao/feed/ (from https://vivuviet.vn/danh-muc/du-lich-ao/)
-16:07:44	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-czech/feed/ (from https://vivuviet.vn/danh-muc/du-lich-czech/)
-16:07:44	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-ha-lan/feed/ (from https://vivuviet.vn/danh-muc/du-lich-ha-lan/)
-16:07:46	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-hy-lap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-hy-lap/)
-16:07:47	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-thuy-dien/feed/ (from https://vivuviet.vn/danh-muc/du-lich-thuy-dien/)
-16:07:49	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-scotland/feed/ (from https://vivuviet.vn/danh-muc/du-lich-scotland/)
-16:07:49	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-phan-lan/feed/ (from https://vivuviet.vn/danh-muc/du-lich-phan-lan/)
-16:07:49	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-my/feed/ (from https://vivuviet.vn/danh-muc/du-lich-my/)
-16:07:49	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-nam-my/feed/ (from https://vivuviet.vn/danh-muc/du-lich-nam-my/)
-16:07:51	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-cuba/feed/ (from https://vivuviet.vn/danh-muc/du-lich-cuba/)
-16:07:51	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-chau-phi/feed/ (from https://vivuviet.vn/danh-muc/du-lich-chau-phi/)
-16:07:52	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-ai-cap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-ai-cap/)
-16:07:52	Warning: 	Moved Permanently for https://vivuviet.vn/?p=894
-16:07:52	Warning: 	File has moved from https://vivuviet.vn/?p=894 to https://vivuviet.vn/khach-san/
-16:07:52	Error: 	"Not Found" (404) at link https://vivuviet.vn/khach-san/page/2/ (from https://vivuviet.vn/khach-san/)
-16:07:55	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/wp/v2/categories/5 (from https://vivuviet.vn/category/cam-nang/)
-16:07:55	Warning: 	Moved Permanently for https://vivuviet.vn/?p=236
-16:07:55	Warning: 	File has moved from https://vivuviet.vn/?p=236 to https://vivuviet.vn/lien-he/
-16:07:56	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1316
-16:07:56	Warning: 	File has moved from https://vivuviet.vn/?p=1316 to https://vivuviet.vn/tour/du-lich-mu-cang-chai-2-ngay-1-dem/
-16:07:57	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1292
-16:07:57	Warning: 	File has moved from https://vivuviet.vn/?p=1292 to https://vivuviet.vn/tour/du-lich-sai-gon-mui-ne-5-ngay-4-dem/
-16:07:57	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1150
-16:07:57	Warning: 	File has moved from https://vivuviet.vn/?p=1150 to https://vivuviet.vn/tour/du-lich-con-dao-3-ngay-2-dem/
-16:07:57	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1144
-16:07:57	Warning: 	File has moved from https://vivuviet.vn/?p=1144 to https://vivuviet.vn/tour/du-lich-can-tho-con-dao-4-ngay-3-dem/
-16:07:57	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1140
-16:07:57	Warning: 	File has moved from https://vivuviet.vn/?p=1140 to https://vivuviet.vn/tour/du-lich-mien-tay-tp-ho-chi-minh-dong-thap-an-giang-can-tho-my-tho-5-ngay-4-dem/
-16:07:57	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1134
-16:07:57	Warning: 	File has moved from https://vivuviet.vn/?p=1134 to https://vivuviet.vn/tour/du-lich-mien-tay-ha-noi-tp-ho-chi-minh-dong-thap-an-giang-can-tho-ha-noi-4-ngay-3-dem/
-16:07:58	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1133
-16:07:58	Warning: 	File has moved from https://vivuviet.vn/?p=1133 to https://vivuviet.vn/tour/du-lich-sai-gon-my-tho-can-tho-rach-gia-ha-tien-phu-quoc-6-ngay-5-dem/
-16:07:58	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1128
-16:07:58	Warning: 	File has moved from https://vivuviet.vn/?p=1128 to https://vivuviet.vn/tour/du-lich-sai-gon-my-tho-ha-tien-phu-quoc-5-ngay-4-dem/
-16:07:58	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1119
-16:07:58	Warning: 	File has moved from https://vivuviet.vn/?p=1119 to https://vivuviet.vn/tour/du-lich-ha-noi-sai-gon-my-tho-ben-tre-kdl-dai-nam-4-ngay-3-dem/
-16:08:00	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1099
-16:08:00	Warning: 	File has moved from https://vivuviet.vn/?p=1099 to https://vivuviet.vn/tour/du-lich-ha-giang-3-ngay-2-dem-2/
-16:08:00	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1087
-16:08:00	Warning: 	File has moved from https://vivuviet.vn/?p=1087 to https://vivuviet.vn/tour/du-lich-bac-ninh-trong-ngay/
-16:08:00	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1297
-16:08:00	Warning: 	File has moved from https://vivuviet.vn/?p=1297 to https://vivuviet.vn/tour/du-lich-an-giang-dong-thap-4-ngay-3-dem/
-16:08:01	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1153
-16:08:01	Warning: 	File has moved from https://vivuviet.vn/?p=1153 to https://vivuviet.vn/tour/tour-du-lich-can-tho-dao-nam-du-4-ngay-3-dem/
-16:08:01	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1149
-16:08:01	Warning: 	File has moved from https://vivuviet.vn/?p=1149 to https://vivuviet.vn/tour/du-lich-can-tho-ha-tien-chau-doc-5-ngay-4-dem/
-16:08:01	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2020/02/hà-tiên-1.jpg (from https://vivuviet.vn/tour/du-lich-can-tho-ha-tien-chau-doc-5-ngay-4-dem/)
-16:08:01	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1145
-16:08:01	Warning: 	File has moved from https://vivuviet.vn/?p=1145 to https://vivuviet.vn/tour/du-lich-can-tho-ha-tien-phu-quoc-5-ngay-4-dem/
-16:08:01	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1175
-16:08:01	Warning: 	File has moved from https://vivuviet.vn/?p=1175 to https://vivuviet.vn/tour/kham-pha-nhat-ban-mua-hoa-anh-dao-osaka-kobe-kyoto-nui-phu-si-tokyo/
-16:08:01	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1172
-16:08:01	Warning: 	File has moved from https://vivuviet.vn/?p=1172 to https://vivuviet.vn/tour/tour-ha-noi-bangkok-pattaya-ha-noi-5-ngay-4-dem/
-16:08:01	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1170
-16:08:01	Warning: 	File has moved from https://vivuviet.vn/?p=1170 to https://vivuviet.vn/tour/du-xuan-dai-loan-ngam-hoa-anh-dao-ha-noi-dai-bac-dai-trung-cao-hung-ha-noi/
-16:08:02	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1165
-16:08:02	Warning: 	File has moved from https://vivuviet.vn/?p=1165 to https://vivuviet.vn/tour/tour-bac-kinh-thuong-hai-5-ngay-4-dem/
-16:08:02	Warning: 	Moved Permanently for https://vivuviet.vn/?p=422
-16:08:02	Warning: 	File has moved from https://vivuviet.vn/?p=422 to https://vivuviet.vn/tour/du-lich-lao-dong-bac-thai-lan-4-ngay-3-dem/
-16:08:02	Warning: 	Moved Permanently for https://vivuviet.vn/?p=407
-16:08:02	Warning: 	File has moved from https://vivuviet.vn/?p=407 to https://vivuviet.vn/tour/du-lich-thai-lan-5-ngay-4-dem/
-16:08:02	Warning: 	Moved Permanently for https://vivuviet.vn/?p=402
-16:08:02	Warning: 	File has moved from https://vivuviet.vn/?p=402 to https://vivuviet.vn/tour/du-lich-ha-noi-tham-quyen-quang-chau-ha-noi-4-ngay-3-dem/
-16:08:02	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvivuviet.vn%2Ftour%2Fdu-lich-ha-noi-tham-quyen-quang-chau-ha-noi-4-ngay-3-dem%2F (from https://vivuviet.vn/tour/du-lich-ha-noi-tham-quyen-quang-chau-ha-noi-4-ngay-3-dem/)
-16:08:02	Warning: 	Moved Permanently for https://vivuviet.vn/?p=913
-16:08:02	Warning: 	File has moved from https://vivuviet.vn/?p=913 to https://vivuviet.vn/kham-pha-tam-dao-thi-tran-xanh-trong-suong-mu/
-16:08:03	Warning: 	Moved Permanently for https://vivuviet.vn/?p=761
-16:08:03	Warning: 	File has moved from https://vivuviet.vn/?p=761 to https://vivuviet.vn/top-10-nhung-cung-duong-deo-dep-nhat-tai-viet-nam-thach-thuc-nhung-nguoi-yeu-du-lich-den-chinh-phuc/
-16:08:03	Warning: 	Retry after error -5 (Unable to get server's address: This is usually a temporary error during hostnam) at link https://tech360.vn/wp-content/uploads/2018/06/top-7-cung-duong-phuot-dang-kham-pha-nhat-nam-2018.jpg (from https://vivuviet.vn/top-10-nhung-cung-duong-deo-dep-nhat-tai-viet-nam-thach-thuc-nhung-nguoi-yeu-du-lich-den-chinh-phuc/)
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=750
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=750 to https://vivuviet.vn/bo-tui-9-dia-diem-du-lich-khong-the-bo-qua-khi-den-ba-na-hills/
-16:08:04	Error: 	"Not Found" (404) at link https://vivuviet.vn/wp-content/uploads/2019/12/cầu-vàng-300x180.jpg (from https://vivuviet.vn/bo-tui-9-dia-diem-du-lich-khong-the-bo-qua-khi-den-ba-na-hills/)
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=612
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=612 to https://vivuviet.vn/kham-pha-cho-phien-bac-ha-net-doc-dao-cua-vung-cao-tay-bac/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=561
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=561 to https://vivuviet.vn/vi-vu-tai-da-lat-dia-diem-du-lich-ly-tuong-danh-cho-cac-cap-doi/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=523
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=523 to https://vivuviet.vn/kham-pha-hoi-an-thanh-pho-co-dep-nhat-chau-a/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=497
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=497 to https://vivuviet.vn/kham-pha-sapa-vung-dat-khiem-nhuong-lang-le-nhung-an-chua-bao-dieu-ki-dieu-cua-canh-sac-thien-nhien/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=188
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=188 to https://vivuviet.vn/hanh-trinh-kham-pha-hon-dao-phu-quoc-hoang-so-dip-tet-duong-lich-2020/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1270
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1270 to https://vivuviet.vn/khach-san/flc-quy-nhon-beach-golf-resort/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1269
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1269 to https://vivuviet.vn/khach-san/flc-ha-long-bay-golf-club-luxury-resort/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1252
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1252 to https://vivuviet.vn/khach-san/flc-grand-hotel-sam-son/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1239
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1239 to https://vivuviet.vn/khach-san/flc-luxury-sam-son-beach-golf-resort/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1230
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1230 to https://vivuviet.vn/khach-san/mai-chau-ecolodge-resort/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1224
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1224 to https://vivuviet.vn/khach-san/seastar-ha-long-hotel/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1219
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1219 to https://vivuviet.vn/khach-san/novotel-hotels-resorts-ha-long-bay/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1216
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1216 to https://vivuviet.vn/khach-san/apricot-hotel-ha-noi/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1211
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1211 to https://vivuviet.vn/khach-san/flc-luxury-resort-vinh-phuc/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1201
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1201 to https://vivuviet.vn/khach-san/flamingo-dai-lai-resort/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1193
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1193 to https://vivuviet.vn/khach-san/amazing-hotel-sapa/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1183
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1183 to https://vivuviet.vn/khach-san/paos-sapa-leisure-hotel/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=743
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=743 to https://vivuviet.vn/dich-vu-thue-xe-mercedes-s500-vip-tai-tphcm-va-ha-noi/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=457
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=457 to https://vivuviet.vn/dich-vu-cho-thue-xe-du-lich-4-16-29-35-45-cho-doi-moi-chat-luong-gia-re/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=734
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=734 to https://vivuviet.vn/chinh-sach-dat-tour/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=736
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=736 to https://vivuviet.vn/chinh-sach-bao-mat/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=738
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=738 to https://vivuviet.vn/y-kien-khach-hang/
-16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1093
-16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1093 to https://vivuviet.vn/tour/du-lich-dao-quan-lan-3-ngay-2-dem/
-16:08:04	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/?p=1083 (from https://vivuviet.vn/tour/tour-du-lich-chua-tay-thien-trong-ngay/)
-16:08:05	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/?p=889 (from https://vivuviet.vn/tour/du-lich-phu-tho-le-hoi-den-hung-2-ngay-1-dem/)
-16:08:05	Warning: 	Moved Permanently for https://vivuviet.vn/?p=884
-16:08:05	Warning: 	File has moved from https://vivuviet.vn/?p=884 to https://vivuviet.vn/tour/tour-du-lich-yen-tu-trong-ngay/
-16:08:05	Warning: 	Moved Permanently for https://vivuviet.vn/?p=876
-16:08:05	Warning: 	File has moved from https://vivuviet.vn/?p=876 to https://vivuviet.vn/tour/du-lich-tam-dao-2-ngay-1-dem-2/
-16:08:10	Warning: 	Moved Permanently for https://vivuviet.vn/?p=776
-16:08:10	Warning: 	File has moved from https://vivuviet.vn/?p=776 to https://vivuviet.vn/tour/776-2/
-16:08:10	Warning: 	Moved Permanently for https://vivuviet.vn/?p=678
-16:08:10	Warning: 	File has moved from https://vivuviet.vn/?p=678 to https://vivuviet.vn/tour/du-lich-dao-co-to-3-ngay-2-dem/
-16:08:10	Warning: 	Moved Permanently for https://vivuviet.vn/?p=624
-16:08:10	Warning: 	File has moved from https://vivuviet.vn/?p=624 to https://vivuviet.vn/tour/du-lich-lang-gom-bat-trang-trong-ngay/
-16:08:10	Warning: 	Moved Permanently for https://vivuviet.vn/?p=526
-16:08:10	Warning: 	File has moved from https://vivuviet.vn/?p=526 to https://vivuviet.vn/tour/du-lich-tam-dao-2-ngay-1-dem/
-16:08:10	Warning: 	Moved Permanently for https://vivuviet.vn/?p=445
-16:08:10	Warning: 	File has moved from https://vivuviet.vn/?p=445 to https://vivuviet.vn/tour/du-lich-ha-noi-duong-lam-trong-ngay/
-16:08:11	Warning: 	Moved Permanently for https://vivuviet.vn/?p=436
-16:08:11	Warning: 	File has moved from https://vivuviet.vn/?p=436 to https://vivuviet.vn/tour/du-lich-ha-noi-trong-ngay-an-trua/
-16:08:11	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/11/pho-co-7-1.jpg (from https://vivuviet.vn/tour/du-lich-ha-noi-trong-ngay-an-trua/)
-16:08:12	Warning: 	Moved Permanently for https://vivuviet.vn/?p=365
-16:08:12	Warning: 	File has moved from https://vivuviet.vn/?p=365 to https://vivuviet.vn/tour/du-lich-chua-huong-trong-ngay/
-16:08:12	Warning: 	Moved Permanently for https://vivuviet.vn/?p=446
-16:08:12	Warning: 	File has moved from https://vivuviet.vn/?p=446 to https://vivuviet.vn/tour/du-lich-sapa-3-ngay-2-dem/
-16:08:12	Warning: 	Moved Permanently for https://vivuviet.vn/?p=658
-16:08:12	Warning: 	File has moved from https://vivuviet.vn/?p=658 to https://vivuviet.vn/tour/du-lich-mai-chau-2-ngay-1-dem/
-16:08:12	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/dat-tour?id=NjU4 (from https://vivuviet.vn/tour/du-lich-mai-chau-2-ngay-1-dem/)
-16:08:12	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/?p=521 (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
-16:08:15	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvivuviet.vn%2Ftour%2Fdu-lich-ninh-binh-trong-ngay%2F (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
-16:08:15	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/11/nb1.jpg (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
-16:08:18	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/11/nb-1.jpg (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
-16:08:18	Warning: 	Moved Permanently for https://vivuviet.vn/?p=514
-16:08:18	Warning: 	File has moved from https://vivuviet.vn/?p=514 to https://vivuviet.vn/tour/du-lich-ninh-binh-2-ngay-1-dem/
-16:08:21	Warning: 	Moved Permanently for https://vivuviet.vn/?p=629
-16:08:21	Warning: 	File has moved from https://vivuviet.vn/?p=629 to https://vivuviet.vn/tour/du-lich-bac-kan-ho-ba-be-2-ngay-1-dem/
-16:08:21	Warning: 	Moved Permanently for https://vivuviet.vn/?p=298
-16:08:21	Warning: 	File has moved from https://vivuviet.vn/?p=298 to https://vivuviet.vn/tour/du-lich-ha-long-2-ngay-1-dem/
-16:08:22	Warning: 	Moved Permanently for https://vivuviet.vn/?p=626
-16:08:22	Warning: 	File has moved from https://vivuviet.vn/?p=626 to https://vivuviet.vn/tour/du-lich-bac-son-lang-son-2-ngay-1-dem/
-16:08:23	Warning: 	Moved Permanently for https://vivuviet.vn/?p=936
-16:08:23	Warning: 	File has moved from https://vivuviet.vn/?p=936 to https://vivuviet.vn/tour/du-lich-mien-trung-da-nang-hoi-an-hue-dong-hoi-5-ngay-4-dem/
-16:08:23	Warning: 	Moved Permanently for https://vivuviet.vn/?p=887
-16:08:23	Warning: 	File has moved from https://vivuviet.vn/?p=887 to https://vivuviet.vn/tour/du-lich-da-lat-3-ngay-2-dem/
-16:08:26	Warning: 	Moved Permanently for https://vivuviet.vn/?p=667
-16:08:26	Warning: 	File has moved from https://vivuviet.vn/?p=667 to https://vivuviet.vn/tour/du-lich-hue-3-ngay-2-dem/
-16:08:26	Warning: 	Moved Permanently for https://vivuviet.vn/?p=662
-16:08:26	Warning: 	File has moved from https://vivuviet.vn/?p=662 to https://vivuviet.vn/tour/du-lich-quang-binh-4-ngay-3-dem/
-16:08:28	Warning: 	Moved Permanently for https://vivuviet.vn/?p=534
-16:08:28	Warning: 	File has moved from https://vivuviet.vn/?p=534 to https://vivuviet.vn/tour/du-lich-quy-nhon-phu-yen-4-ngay-3-dem/
-16:08:28	Warning: 	Moved Permanently for https://vivuviet.vn/?p=444
-16:08:28	Warning: 	File has moved from https://vivuviet.vn/?p=444 to https://vivuviet.vn/tour/du-lich-nha-trang-da-lat-5-ngay-4-dem/
-16:08:28	Warning: 	Moved Permanently for https://vivuviet.vn/?p=418
-16:08:28	Warning: 	File has moved from https://vivuviet.vn/?p=418 to https://vivuviet.vn/tour/tour-bon-dao-nha-trang-2019/
-16:08:28	Warning: 	Moved Permanently for https://vivuviet.vn/?p=355
-16:08:28	Warning: 	File has moved from https://vivuviet.vn/?p=355 to https://vivuviet.vn/tour/du-lich-da-nang-hoi-an-3-ngay-2-dem/
-16:08:28	Error: 	"Not Found" (404) at link https://vivuviet.vn/wp-content/uploads/2019/10/chua-Cau-Hoian-300x200.jpg (from https://vivuviet.vn/tour/du-lich-da-nang-hoi-an-3-ngay-2-dem/)
-16:08:28	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/10/ba-na-hills-1-Copy-1-300x181.jpg (from https://vivuviet.vn/tour/du-lich-da-nang-hoi-an-3-ngay-2-dem/)
-16:08:30	Warning: 	Moved Permanently for https://vivuviet.vn/?p=430
-16:08:30	Warning: 	File has moved from https://vivuviet.vn/?p=430 to https://vivuviet.vn/tour/du-lich-mien-tay-song-nuoc-5-ngay-4-dem/
-16:08:30	Warning: 	Moved Permanently for https://vivuviet.vn/?p=878
-16:08:30	Warning: 	File has moved from https://vivuviet.vn/?p=878 to https://vivuviet.vn/tour/du-lich-vung-tau-3-ngay-2-dem/
-16:08:31	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-singapore/feed/ (from https://vivuviet.vn/danh-muc/du-lich-singapore/)
-16:08:31	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-madilves/feed/ (from https://vivuviet.vn/danh-muc/du-lich-madilves/)
-16:08:34	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-anh/feed/ (from https://vivuviet.vn/danh-muc/du-lich-anh/)
-16:08:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-czech/feed/ (from https://vivuviet.vn/danh-muc/du-lich-czech/)
-16:08:36	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-hy-lap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-hy-lap/)
-16:08:36	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-scotland/feed/ (from https://vivuviet.vn/danh-muc/du-lich-scotland/)
-16:08:37	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-phan-lan/feed/ (from https://vivuviet.vn/danh-muc/du-lich-phan-lan/)
-16:08:37	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-cuba/feed/ (from https://vivuviet.vn/danh-muc/du-lich-cuba/)
-16:08:40	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-ai-cap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-ai-cap/)
-16:08:40	Warning: 	Moved Permanently for https://vivuviet.vn/?p=479
-16:08:40	Warning: 	File has moved from https://vivuviet.vn/?p=479 to https://vivuviet.vn/khach-san-palazzo-3-da-nang/
-16:08:40	Warning: 	Found for https://vivuviet.vn/dat-tour/
-16:08:40	Warning: 	File has moved from https://vivuviet.vn/dat-tour/ to https://vivuviet.vn
-16:08:40	Warning: 	Moved Permanently for https://vivuviet.vn/?p=731
-16:08:40	Warning: 	File has moved from https://vivuviet.vn/?p=731 to https://vivuviet.vn/dat-tour/
-16:08:40	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1104
-16:08:40	Warning: 	File has moved from https://vivuviet.vn/?p=1104 to https://vivuviet.vn/tour/du-lich-cat-ba-3-ngay-2-dem/
-16:08:40	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2020/03/bắc-kinh-3.jpg (from https://vivuviet.vn/dat-tour/?id=MTE2NQ==)
-16:08:41	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/wp/v2/users/1 (from https://vivuviet.vn/author/admin/)
-16:08:41	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://tech360.vn/wp-content/uploads/2018/06/top-7-cung-duong-phuot-dang-kham-pha-nhat-nam-2018.jpg (from https://vivuviet.vn/top-10-nhung-cung-duong-deo-dep-nhat-tai-viet-nam-thach-thuc-nhung-nguoi-yeu-du-lich-den-chinh-phuc/)
-16:08:41	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1083
-16:08:41	Warning: 	File has moved from https://vivuviet.vn/?p=1083 to https://vivuviet.vn/tour/tour-du-lich-chua-tay-thien-trong-ngay/
-16:08:41	Warning: 	Moved Permanently for https://vivuviet.vn/?p=889
-16:08:41	Warning: 	File has moved from https://vivuviet.vn/?p=889 to https://vivuviet.vn/tour/du-lich-phu-tho-le-hoi-den-hung-2-ngay-1-dem/
-16:08:41	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2020/01/tam-đảo-1.jpg (from https://vivuviet.vn/dat-tour/?id=ODc2)
-16:08:42	Warning: 	Moved Permanently for https://vivuviet.vn/?p=869
-16:08:42	Warning: 	File has moved from https://vivuviet.vn/?p=869 to https://vivuviet.vn/tour/du-lich-moc-chau-2-ngay-1-dem/
-16:08:42	Warning: 	Moved Permanently for https://vivuviet.vn/dat-tour?id=NjU4
-16:08:42	Warning: 	File has moved from https://vivuviet.vn/dat-tour?id=NjU4 to https://vivuviet.vn/dat-tour/?id=NjU4
-16:08:42	Warning: 	Moved Permanently for https://vivuviet.vn/?p=521
-16:08:42	Warning: 	File has moved from https://vivuviet.vn/?p=521 to https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/
-16:08:42	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvivuviet.vn%2Ftour%2Fdu-lich-ninh-binh-trong-ngay%2F (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
-16:08:42	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/11/nb-1.jpg (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
-16:08:42	Warning: 	Moved Permanently for https://vivuviet.vn/?p=491
-16:08:42	Warning: 	File has moved from https://vivuviet.vn/?p=491 to https://vivuviet.vn/tour/du-lich-ho-ba-be-thac-ban-gioc-3-ngay-2-dem/
-16:08:42	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvivuviet.vn%2Ftour%2Fdu-lich-ho-ba-be-thac-ban-gioc-3-ngay-2-dem%2F (from https://vivuviet.vn/tour/du-lich-ho-ba-be-thac-ban-gioc-3-ngay-2-dem/)
-16:08:43	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/11/Ba-Be-2-Copy.jpg (from https://vivuviet.vn/tour/du-lich-ho-ba-be-thac-ban-gioc-3-ngay-2-dem/)
-16:08:44	Warning: 	Moved Permanently for https://vivuviet.vn/?p=937
-16:08:44	Warning: 	File has moved from https://vivuviet.vn/?p=937 to https://vivuviet.vn/tour/du-lich-mien-trung-da-nang-hoi-an-hue-dong-hoi-4-ngay-3-dem/
-16:08:44	Warning: 	Moved Permanently for https://vivuviet.vn/?p=673
-16:08:44	Warning: 	File has moved from https://vivuviet.vn/?p=673 to https://vivuviet.vn/tour/du-lich-vung-tau-phan-thiet-mui-ne-5-ngay-4-dem/
-16:08:44	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/12/Mui-Ne-6-1.jpg (from https://vivuviet.vn/tour/du-lich-vung-tau-phan-thiet-mui-ne-5-ngay-4-dem/)
-16:08:45	Warning: 	Moved Permanently for https://vivuviet.vn/?p=548
-16:08:45	Warning: 	File has moved from https://vivuviet.vn/?p=548 to https://vivuviet.vn/tour/du-lich-nha-trang-4-ngay-3-dem/
-16:08:45	Warning: 	Moved Permanently for https://vivuviet.vn/?p=372
-16:08:45	Warning: 	File has moved from https://vivuviet.vn/?p=372 to https://vivuviet.vn/tour/du-lich-phu-quoc-4-ngay-3-dem/
-16:08:46	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://vivuviet.vn/danh-muc/du-lich-hy-lap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-hy-lap/)
-16:08:46	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://vivuviet.vn/danh-muc/du-lich-phan-lan/feed/ (from https://vivuviet.vn/danh-muc/du-lich-phan-lan/)
-16:08:46	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://vivuviet.vn/danh-muc/du-lich-ai-cap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-ai-cap/)
-16:08:46	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/wp/v2/users/1 (from https://vivuviet.vn/author/admin/)
-16:08:47	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://tech360.vn/wp-content/uploads/2018/06/top-7-cung-duong-phuot-dang-kham-pha-nhat-nam-2018.jpg (from https://vivuviet.vn/top-10-nhung-cung-duong-deo-dep-nhat-tai-viet-nam-thach-thuc-nhung-nguoi-yeu-du-lich-den-chinh-phuc/)
-16:08:48	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://vivuviet.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvivuviet.vn%2Ftour%2Fdu-lich-ninh-binh-trong-ngay%2F (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
-16:08:48	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2020/02/den-long-Hoian-1.jpg (from https://vivuviet.vn/dat-tour/?id=OTM3)
-
-HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 6 seconds : 1191 links scanned, 1018 files written (222110626 bytes overall) [203509086 bytes received at 372727 bytes/sec], 24896580 bytes transferred using HTTP compression in 505 files, ratio 21%, 13.9 requests per connection
-(9 errors, 252 warnings, 0 messages)
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 02 Mar 2025 15:59:42 at https://v1/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+v1
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://vivuviet.vn/ -O1 "D:\itomo\vivuviet\vivuviet" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contaiv1 information,v1
+v1v1
+	such as username/password authentication for websites mirrored in this projectv1v1
+v1v1
+	do not share these files/folders if you want these information to remain privatev1v1
+v1v1
+v1v1
+v1v1
+16:00:26	Error: 	"Method Not Allowed" (405) at link https://vivuviet.vn/xmlrpc.php (frv1vivuviet.vn/)v1
+v1v1
+16:01:07	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/wp-content/uploads/2019/10/cropped-Vivuviet-favicon-32x32.png (from https://vivuv1
+v1v1
+16:01:09	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/wp-content/uploads/2019/10/cropped-Vivuviet-faviconv1g (from https://vivuviet.vn/)
+v1v1
+16:04:34	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/tour/du-lich-cat-ba-3-ngay-2-dem/ (from https://v1/)
+v1v1
+16:06:12	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/tour/du-lich-moc-chau-2-ngay-1-dem/ (from httpv1t.vn/danh-muc/du-lich-mien-bac/)
+v1v1
+16:06:43	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/danh-muc/du-lich-ninh-binh/feed/ (from https:/v1n/danh-muc/du-lich-ninh-binh/)
+v1v1
+16:06:53	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/tour/du-lich-ho-ba-be-thac-ban-gioc-3-ngay-2-dem/ (from https:/v1n/danh-muc/du-lich-cao-bang/)
+v1v1
+16:06:56	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/danh-muc/du-lich-hai-phong/feed/ (from httpsv1.vn/danh-muc/du-lich-hai-phong/)
+v1v1
+16:06:56	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/danh-muc/du-lich-quang-ninh/feed/ (from https:v1vn/danh-muc/du-lich-quang-ninh/)
+v1v1
+16:07:01	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/danh-muc/du-lich-bac-ninh/feed/ (from https://v1/danh-muc/du-lich-bac-ninh/)
+v1v1
+16:07:01	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/tour/du-lich-mien-trung-da-nang-hoi-an-huv14-ngay-3-dem/ (from https://vivuviet.vn/danh-muc/du-lich-mien-trung/)
+v1v1
+16:07:05	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/tour/du-lich-vung-tau-phan-thiet-mui-ne-v1m/ (from https://vivuviet.vn/danh-muc/du-lich-mien-trung/)
+v1v1
+16:07:17	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/tour/du-lich-nha-trang-4-ngay-3-dem/ (from hv1viet.vn/danh-muc/du-lich-mien-trung/)
+v1v1
+16:07:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/danh-muc/du-lich-nghe-an/feed/ (from https://viv1anh-muc/du-lich-nghe-an/)
+v1v1
+16:07:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/danh-muc/du-lich-ninh-thuan/feed/ (from https:v1vn/danh-muc/du-lich-ninh-thuan/)
+v1v1
+16:07:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/danh-muc/du-lich-hoi-an/feed/ (from https://v1/danh-muc/du-lich-hoi-an/)
+v1v1
+16:07:28	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/danh-muc/du-lich-mien-nam/feed/ (from https://v1/danh-muc/du-lich-mien-nam/)
+v1v1
+16:07:30	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/tour/du-lich-phu-quoc-4-ngay-3-dem/ (from https://vivuviet.vn/danh-muc/du-lich-phu-quoc/)
+v1v1
+16:07:32	Warning: 	Retry after error -4 (No data (cv1losed)) at link https://vivuviet.v1/du-lich-vung-tau/feed/ (from https://vivuviet.vn/danh-muc/du-lich-vung-tau/)
+v1v1
+16:07:35	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-con-dao/feed/ (from https://vivuviet.vn/danh-muc/du-lich-con-dao/)
+v1v1
+16:07:35	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-mien-nam-du-lich-mien-nam/feed/ (from https://vivuviet.vn/danh-muc/du-lich-mien-nam-du-lich-mien-nam/)
+v1v1
+16:07:35	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-han-quoc/feed/ (from https://vivuviet.vn/danh-muc/du-lich-han-quoc/)
+v1v1
+16:07:35	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-brunei/feed/ (from https://vivuviet.vn/danh-muc/du-lich-brunei/)
+v1v1
+16:07:35	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-campuchia/feed/ (from https://vivuviet.vn/danh-muc/du-lich-campuchia/)
+v1v1
+16:07:39	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-dai-loan/feed/ (from https://vivuviet.vn/danh-muc/du-lich-dai-loan/)
+v1v1
+16:07:41	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-singapore/feed/ (from https://vivuviet.vn/danh-muc/du-lich-singapore/)
+v1v1
+16:07:41	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-nhat-ban/feed/ (from https://vivuviet.vn/danh-muc/du-lich-nhat-ban/)
+v1v1
+16:07:42	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-madilves/feed/ (from https://vivuviet.vn/danh-muc/du-lich-madilves/)
+v1v1
+16:07:42	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-anh/feed/ (from https://vivuviet.vn/danh-muc/du-lich-anh/)
+v1v1
+16:07:42	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-phap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-phap/)
+v1v1
+16:07:42	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-ao/feed/ (from https://vivuviet.vn/danh-muc/du-lich-ao/)
+v1v1
+16:07:44	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-czech/feed/ (from https://vivuviet.vn/danh-muc/du-lich-czech/)
+v1v1
+16:07:44	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-ha-lan/feed/ (from https://vivuviet.vn/danh-muc/du-lich-ha-lan/)
+v1v1
+16:07:46	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/danh-muc/du-lich-hy-lap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-hy-lap/)
+v1v1
+16:07:47	Warning: 	Retry after error -4 (No data (connection closed)) at link https://v1/danh-muc/du-lich-thuy-dien/feed/ (from https://vivuvietv1c/du-lich-thuy-dien/)
+v1
+16:07:49	Warning: 	Retry after error -4 (No datv1on closed)) at link v1uviet.vn/danh-muc/du-lich-scotland/feed/ (from https://vivuviet.vn/danh-muc/du-lich-scotland/)
+v1
+16:07:49	Warning: 	Retry after error -4 (No datv1on closed)) at link v1uviet.vn/danh-muc/du-lich-phan-lan/feed/ (from https://vivuviet.vn/danh-muc/du-lich-phan-lan/)
+v1
+16:07:49	Warning: 	Retry after error -4 (No datv1on closed)) at link v1uviet.vn/danh-muc/du-lich-my/feed/ (from https://vivuviet.vn/danh-muc/du-lich-my/)
+v1
+16:07:49	Warning: 	Retry after error -4 (No datv1on closed)) at link v1uviet.vn/danh-muc/du-lich-nam-my/feed/ (from https://vivuviet.vn/danh-muc/du-lich-nam-my/)
+v1
+16:07:51	Warning: 	Retry after error -4 (No datv1on closed)) at link v1uviet.vn/danh-muc/du-lich-cuba/feed/ (from https://vivuviet.vn/danh-muc/du-lich-cuba/)
+v1
+16:07:51	Warning: 	Retry after error -4 (No datv1on closed)) at linkv1vuviet.vn/danh-muc/du-lich-chau-phi/feed/ (from https://vivuviet.vn/danh-muc/du-lich-chau-phi/)
+v1
+16:07:52	Warning: 	Retry after error -4 (No datv1on closed)) at linkv1vuviet.vn/danh-muc/du-lich-ai-cap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-ai-cap/)
+v1
+16:07:52	Warning: 	Moved Permanently for https:v1vn/?p=894v1
+v1v1v1
+16:07:52	Warning: 	File has moved from https://viv1p=894 to https://vivuviet.vn/khach-san/
+v1v1
+16:07:52	Error: 	"Not Found" (404) at link https:v1vn/khach-san/page/2/ (from https://vivuviet.vn/khach-san/)
+v1v1
+16:07:55	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/wp/v2/categories/5 (from https://vivuviet.vn/category/cam-nang/)v1
+v1
+16:07:55	Warning: 	Moved Permanently for https:v1vn/?p=236v1
+v1v1
+16:07:55	Warning: 	File has moved from https://viv1p=236 to https://vivuviet.vn/lien-he/
+v1v1
+16:07:56	Warning: 	Moved Permanently for https://v1/?p=1316
+v1v1
+16:07:56	Warning: 	File has moved from https://viv1p=1316 to https://vivuviet.vn/tour/du-lich-mu-cang-chai-2-ngay-1-dem/
+v1v1
+16:07:57	Warning: 	Moved Permanently for https://v1/?p=1292
+v1v1
+16:07:57	Warning: 	File has moved from https://viv1p=1292 to https://vivuviet.vn/tour/du-lich-sai-gon-mui-ne-5-ngay-4-dem/
+v1v1
+16:07:57	Warning: 	Moved Permanently for https://v1/?p=1150
+v1v1
+16:07:57	Warning: 	File has moved from https://viv1p=1150 to https://vivuviet.vn/tour/du-lich-con-dao-3-ngay-2-dem/
+v1v1
+16:07:57	Warning: 	Moved Permanently for https://v1/?p=1144
+v1v1
+16:07:57	Warning: 	File has moved from https://viv1p=1144 to https://vivuviet.vn/tour/du-lich-can-tho-con-dao-4-ngay-3-dem/
+v1v1
+16:07:57	Warning: 	Moved Permanently for https://v1/?p=1140
+v1v1
+16:07:57	Warning: 	File has moved from https://viv1p=1140 to https://vivuviet.vn/tour/du-lich-mien-tay-tp-ho-chi-minh-dong-thap-an-giang-can-tho-my-tho-5-ngay-4-dem/
+v1v1
+16:07:57	Warning: 	Moved Permanently for https://v1/?p=1134
+v1v1
+16:07:57	Warning: 	File has moved from https://viv1p=1134 to https://vivuviet.vn/tour/du-lich-mien-tay-ha-noi-tp-ho-chi-minh-dong-thap-an-giang-can-tho-ha-noi-4-ngay-3-dem/
+v1v1
+16:07:58	Warning: 	Moved Permanently for https://v1/?p=1133
+v1v1
+16:07:58	Warning: 	File has moved from https://viv1p=1133 to https://vivuviet.vn/tour/du-lich-sai-gon-my-tho-can-tho-rach-gia-ha-tien-phu-quoc-6-ngay-5-dem/
+v1v1
+16:07:58	Warning: 	Moved Permanently for https://v1/?p=1128
+v1v1
+16:07:58	Warning: 	File has moved from https://viv1p=1128 to https://vivuviet.vn/tour/du-lich-sai-gon-my-tho-ha-tien-phu-quoc-5-ngay-4-dem/
+v1v1
+16:07:58	Warning: 	Moved Permanently for https://v1/?p=1119
+v1v1
+16:07:58	Warning: 	File has moved from https://viv1p=1119 to https://vivuviet.vn/tour/du-lich-ha-noi-sai-gon-my-tho-ben-tre-kdl-dai-nam-4-ngay-3-dem/
+v1v1
+16:08:00	Warning: 	Moved Permanently for https://v1/?p=1099
+v1v1
+16:08:00	Warning: 	File has moved from https://viv1p=1099 to https://vivuviet.vn/tour/du-lich-ha-giang-3-ngay-2-dem-2/
+v1v1
+16:08:00	Warning: 	Moved Permanently for https://v1/?p=1087
+v1v1
+16:08:00	Warning: 	File has moved from https://viv1p=1087 to https://vivuviet.vn/tour/du-lich-bac-ninh-trong-ngay/
+v1v1
+16:08:00	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1297v1v1
+v1v1
+16:08:00	Warning: 	File has moved from https://viv1p=1297 to https://vivuviet.vn/tour/du-lich-an-giang-dong-thap-4-ngay-3-dem/
+v1v1
+16:08:01	Warning: 	Moved Permanently for https://v1/?p=1153
+v1v1
+16:08:01	Warning: 	File has moved from https://viv1p=1153 to https://vivuviet.vn/tour/tour-du-lich-can-tho-dao-nam-du-4-ngay-3-dem/
+v1v1
+16:08:01	Warning: 	Moved Permanently for https://v1/?p=1149
+v1v1
+16:08:01	Warning: 	File has moved from https://viv1p=1149 to https://vivuviet.vn/tour/du-lich-can-tho-ha-tien-chau-doc-5-ngay-4-dem/
+v1v1
+16:08:01	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/wp-content/uploads/2020/02/hà-tiên-1.jpg (from https://vivuviet.vn/tour/du-lich-can-tho-ha-tien-chau-doc-5-ngay-4-dem/)
+v1v1
+16:08:01	Warning: 	Moved Permanently for https://v1/?p=1145
+v1v1
+16:08:01	Warning: 	File has moved from https://viv1p=1145 to https://vivuviet.vn/tour/du-lich-can-tho-ha-tien-phu-quoc-5-ngay-4-dem/
+v1v1
+16:08:01	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1175v1v1
+v1
+16:08:01	Warning: 	File has moved from https://v1/?p=1175 to https:/v1n/tour/kham-pha-nhat-ban-mua-hoa-anh-dao-osaka-kobe-kyoto-nui-phu-si-tokyo/
+v1
+16:08:01	Warning: 	Moved Permanently for https:v1vn/?p=1172v1
+v1
+16:08:01	Warning: 	File has moved from https://v1/?p=1172 to https:/v1n/tour/tour-ha-noi-bangkok-pattaya-ha-noi-5-ngay-4-dem/
+v1v1
+16:08:01	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1170v1v1
+v1v1v1
+16:08:01	Warning: 	File has moved from https://vivuviet.vn/?p=1170 to https://vivuvietv1-xuan-dai-loan-ngam-hoa-anh-dao-ha-noi-dai-bac-daiv1hung-ha-noi/
+v1v1
+16:08:02	Warning: 	Moved Permanently for https://v1/?p=1165
+v1v1
+16:08:02	Warning: 	File has moved from https://viv1p=1165 to https://vivuviet.vn/tour/tour-bac-kinh-thuong-hai-5-ngay-4-dem/
+v1v1
+16:08:02	Warning: 	Moved Permanently for https://v1/?p=422
+v1v1
+16:08:02	Warning: 	File has moved from https://viv1p=422 to https://vivuviet.vn/tour/du-lich-lao-dong-bac-thai-lan-4-ngay-3-dem/
+v1v1
+16:08:02	Warning: 	Moved Permanently for https://v1/?p=407
+v1v1
+16:08:02	Warning: 	File has moved from https://viv1p=407 to https://vivuviet.vn/tour/du-lich-thai-lan-5-ngay-4-dem/
+v1v1
+16:08:02	Warning: 	Moved Permanently for https://v1/?p=402
+v1v1
+16:08:02	Warning: 	File has moved from https://viv1p=402 to https://vivuviet.vn/tour/du-lich-ha-noi-tham-quyen-quang-chau-ha-noi-4-ngay-3-dem/
+v1v1
+16:08:02	Warning: 	Retry after error -4 (No data v1 closed)) at link https://vivuviet.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvivuviet.vn%2Ftour%2Fdu-lich-ha-noi-tham-quyen-quang-chau-ha-noi-4-ngay-3-dem%2F (from https://vivuviet.vn/tour/du-lich-ha-noi-tham-quyen-quang-chau-ha-noi-4-ngay-3-dem/)
+v1v1
+16:08:02	Warning: 	Moved Permanently for https://v1/?p=913
+v1v1
+16:08:02	Warning: 	File has moved from https://viv1p=913 to https://vivuviet.vn/kham-pha-tam-dao-thi-tran-xanh-trong-suong-mu/
+v1v1
+16:08:03	Warning: 	Moved Permanently for https://v1/?p=761
+v1v1
+16:08:03	Warning: 	File has moved from https://vivuv1761 to https://vivuviet.vn/top-10-nhung-cung-duong-deo-dep-nhat-tai-vv1ch-thuc-nhung-nguoi-yeu-du-lich-den-chinh-phuc/
+v1v1
+16:08:03	Warning: 	Retry after error -5 (Unable tv1r's address: This is usually a temporary error during hostnam) at link https://tech360.vn/wp-content/uploads/2018/06/top-7-cung-duong-phuot-dang-kham-pha-nhat-nam-2018.jpg (from https://vivuviet.vn/top-10-nhung-cung-duong-deo-dep-nhat-tai-viet-nam-thach-thuc-nhung-nguoi-yeu-du-lich-den-chinh-phuc/)
+v1v1
+16:08:04	Warning: 	Moved Permanently for https://v1/?p=750
+v1v1
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=750 to https://vivuviet.v1-dia-diem-du-lich-khong-the-bo-qua-khi-den-ba-nav1
+v1v1
+16:08:04	Error: 	"Not Found" (404) at link https://vivuviet.vn/wp-content/uploads/2019v1g-300x180.jpg (from https://vivuviet.vn/bov1diem-du-lich-khong-the-bo-qua-khi-den-ba-na-hills/)
+v1v1
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=612v1v1
+v1v1
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=612 to https://vivuviet.v1-cho-phien-bac-ha-net-doc-dao-cua-vung-cao-tay-v1
+v1v1
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=561v1v1
+v1
+16:08:04	Warning: 	File has moved from https://v1/?p=561 to https://v1/vi-vu-tai-da-lat-dia-diem-du-lich-ly-tuong-danh-cho-cac-cap-doi/
+v1
+16:08:04	Warning: 	Moved Permanently for https:v1vn/?p=523v1
+v1
+16:08:04	Warning: 	File has moved from https://v1/?p=523 to https://v1/kham-pha-hoi-an-thanh-pho-co-dep-nhat-chau-a/
+v1
+16:08:04	Warning: 	Moved Permanently for https:v1vn/?p=497v1
+v1v1
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=497 to https://vivuviet.v1-sapa-vung-dat-khiem-nhuong-lang-le-nv1a-bao-dieu-ki-dieu-cua-canh-sac-thien-nhien/
+v1
+16:08:04	Warning: 	Moved Permanently for https://v1/?p=188
+v1v1
+16:08:04	Warning: 	File has moved from https://viv1p=188 to https://vivuviet.vn/hanh-trinh-kham-pha-hon-dao-phu-quoc-hoang-so-dip-tet-duong-lich-2020/
+v1v1
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1270v1v1
+v1
+16:08:04	Warning: 	File has moved from https://v1/?p=1270 to https:/v1n/khach-san/flc-quy-nhon-beach-golf-resort/
+v1
+16:08:04	Warning: 	Moved Permanently for https:v1vn/?p=1269v1
+v1
+16:08:04	Warning: 	File has moved from https://v1/?p=1269 to https:/v1n/khach-san/flc-ha-long-bay-golf-club-luxury-resort/
+v1v1v1
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1252v1v1
+v1
+16:08:04	Warning: 	File has moved from https://v1/?p=1252 to https:/v1n/khach-san/flc-grand-hotel-sam-son/
+v1v1v1
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1239v1v1
+v1
+16:08:04	Warning: 	File has moved from https://v1/?p=1239 to https:/v1n/khach-san/flc-luxury-sam-son-beach-golf-resort/
+v1
+16:08:04	Warning: 	Moved Permanently for https:v1vn/?p=1230v1
+v1v1
+16:08:04	Warning: 	File has moved from https://viv1p=1230 to https://vivuviet.vn/khach-san/mai-chau-ecolodge-resort/
+v1v1
+16:08:04	Warning: 	Moved Permanently for https://v1/?p=1224
+v1v1
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1224 to https://vivuviv1-san/seastar-ha-long-hotel/v1
+v1v1
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1219v1v1
+v1v1
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1219 to https://vivuviet.vn/khach-san/novotel-hotels-resorts-ha-long-bay/v1
+v1v1v1
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1216v1v1
+
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1216 to https://vivuviet.vn/khach-san/apricot-hotel-ha-noi/
+
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1211
+
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1211 to https://vivuviet.vn/khach-san/flc-luxury-resort-vinh-phuc/
+
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1201
+
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1201 to https://vivuviet.vn/khach-san/flamingo-dai-lai-resort/
+
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1193
+
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1193 to https://vivuviet.vn/khach-san/amazing-hotel-sapa/
+
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1183
+
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1183 to https://vivuviet.vn/khach-san/paos-sapa-leisure-hotel/
+
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=743
+
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=743 to https://vivuviet.vn/dich-vu-thue-xe-mercedes-s500-vip-tai-tphcm-va-ha-noi/
+
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=457
+
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=457 to https://vivuviet.vn/dich-vu-cho-thue-xe-du-lich-4-16-29-35-45-cho-doi-moi-chat-luong-gia-re/
+
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=734
+
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=734 to https://vivuviet.vn/chinh-sach-dat-tour/
+
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=736
+
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=736 to https://vivuviet.vn/chinh-sach-bao-mat/
+
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=738
+
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=738 to https://vivuviet.vn/y-kien-khach-hang/
+
+16:08:04	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1093
+
+16:08:04	Warning: 	File has moved from https://vivuviet.vn/?p=1093 to https://vivuviet.vn/tour/du-lich-dao-quan-lan-3-ngay-2-dem/
+
+16:08:04	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/?p=1083 (from https://vivuviet.vn/tour/tour-du-lich-chua-tay-thien-trong-ngay/)
+
+16:08:05	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/?p=889 (from https://vivuviet.vn/tour/du-lich-phu-tho-le-hoi-den-hung-2-ngay-1-dem/)
+
+16:08:05	Warning: 	Moved Permanently for https://vivuviet.vn/?p=884
+
+16:08:05	Warning: 	File has moved from https://vivuviet.vn/?p=884 to https://vivuviet.vn/tour/tour-du-lich-yen-tu-trong-ngay/
+
+16:08:05	Warning: 	Moved Permanently for https://vivuviet.vn/?p=876
+
+16:08:05	Warning: 	File has moved from https://vivuviet.vn/?p=876 to https://vivuviet.vn/tour/du-lich-tam-dao-2-ngay-1-dem-2/
+
+16:08:10	Warning: 	Moved Permanently for https://vivuviet.vn/?p=776
+
+16:08:10	Warning: 	File has moved from https://vivuviet.vn/?p=776 to https://vivuviet.vn/tour/776-2/
+
+16:08:10	Warning: 	Moved Permanently for https://vivuviet.vn/?p=678
+
+16:08:10	Warning: 	File has moved from https://vivuviet.vn/?p=678 to https://vivuviet.vn/tour/du-lich-dao-co-to-3-ngay-2-dem/
+
+16:08:10	Warning: 	Moved Permanently for https://vivuviet.vn/?p=624
+
+16:08:10	Warning: 	File has moved from https://vivuviet.vn/?p=624 to https://vivuviet.vn/tour/du-lich-lang-gom-bat-trang-trong-ngay/
+
+16:08:10	Warning: 	Moved Permanently for https://vivuviet.vn/?p=526
+
+16:08:10	Warning: 	File has moved from https://vivuviet.vn/?p=526 to https://vivuviet.vn/tour/du-lich-tam-dao-2-ngay-1-dem/
+
+16:08:10	Warning: 	Moved Permanently for https://vivuviet.vn/?p=445
+
+16:08:10	Warning: 	File has moved from https://vivuviet.vn/?p=445 to https://vivuviet.vn/tour/du-lich-ha-noi-duong-lam-trong-ngay/
+
+16:08:11	Warning: 	Moved Permanently for https://vivuviet.vn/?p=436
+
+16:08:11	Warning: 	File has moved from https://vivuviet.vn/?p=436 to https://vivuviet.vn/tour/du-lich-ha-noi-trong-ngay-an-trua/
+
+16:08:11	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/11/pho-co-7-1.jpg (from https://vivuviet.vn/tour/du-lich-ha-noi-trong-ngay-an-trua/)
+
+16:08:12	Warning: 	Moved Permanently for https://vivuviet.vn/?p=365
+
+16:08:12	Warning: 	File has moved from https://vivuviet.vn/?p=365 to https://vivuviet.vn/tour/du-lich-chua-huong-trong-ngay/
+
+16:08:12	Warning: 	Moved Permanently for https://vivuviet.vn/?p=446
+
+16:08:12	Warning: 	File has moved from https://vivuviet.vn/?p=446 to https://vivuviet.vn/tour/du-lich-sapa-3-ngay-2-dem/
+
+16:08:12	Warning: 	Moved Permanently for https://vivuviet.vn/?p=658
+
+16:08:12	Warning: 	File has moved from https://vivuviet.vn/?p=658 to https://vivuviet.vn/tour/du-lich-mai-chau-2-ngay-1-dem/
+
+16:08:12	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/dat-tour?id=NjU4 (from https://vivuviet.vn/tour/du-lich-mai-chau-2-ngay-1-dem/)
+
+16:08:12	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/?p=521 (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
+
+16:08:15	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvivuviet.vn%2Ftour%2Fdu-lich-ninh-binh-trong-ngay%2F (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
+
+16:08:15	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/11/nb1.jpg (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
+
+16:08:18	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/11/nb-1.jpg (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
+
+16:08:18	Warning: 	Moved Permanently for https://vivuviet.vn/?p=514
+
+16:08:18	Warning: 	File has moved from https://vivuviet.vn/?p=514 to https://vivuviet.vn/tour/du-lich-ninh-binh-2-ngay-1-dem/
+
+16:08:21	Warning: 	Moved Permanently for https://vivuviet.vn/?p=629
+
+16:08:21	Warning: 	File has moved from https://vivuviet.vn/?p=629 to https://vivuviet.vn/tour/du-lich-bac-kan-ho-ba-be-2-ngay-1-dem/
+
+16:08:21	Warning: 	Moved Permanently for https://vivuviet.vn/?p=298
+
+16:08:21	Warning: 	File has moved from https://vivuviet.vn/?p=298 to https://vivuviet.vn/tour/du-lich-ha-long-2-ngay-1-dem/
+
+16:08:22	Warning: 	Moved Permanently for https://vivuviet.vn/?p=626
+
+16:08:22	Warning: 	File has moved from https://vivuviet.vn/?p=626 to https://vivuviet.vn/tour/du-lich-bac-son-lang-son-2-ngay-1-dem/
+
+16:08:23	Warning: 	Moved Permanently for https://vivuviet.vn/?p=936
+
+16:08:23	Warning: 	File has moved from https://vivuviet.vn/?p=936 to https://vivuviet.vn/tour/du-lich-mien-trung-da-nang-hoi-an-hue-dong-hoi-5-ngay-4-dem/
+
+16:08:23	Warning: 	Moved Permanently for https://vivuviet.vn/?p=887
+
+16:08:23	Warning: 	File has moved from https://vivuviet.vn/?p=887 to https://vivuviet.vn/tour/du-lich-da-lat-3-ngay-2-dem/
+
+16:08:26	Warning: 	Moved Permanently for https://vivuviet.vn/?p=667
+
+16:08:26	Warning: 	File has moved from https://vivuviet.vn/?p=667 to https://vivuviet.vn/tour/du-lich-hue-3-ngay-2-dem/
+
+16:08:26	Warning: 	Moved Permanently for https://vivuviet.vn/?p=662
+
+16:08:26	Warning: 	File has moved from https://vivuviet.vn/?p=662 to https://vivuviet.vn/tour/du-lich-quang-binh-4-ngay-3-dem/
+
+16:08:28	Warning: 	Moved Permanently for https://vivuviet.vn/?p=534
+
+16:08:28	Warning: 	File has moved from https://vivuviet.vn/?p=534 to https://vivuviet.vn/tour/du-lich-quy-nhon-phu-yen-4-ngay-3-dem/
+
+16:08:28	Warning: 	Moved Permanently for https://vivuviet.vn/?p=444
+
+16:08:28	Warning: 	File has moved from https://vivuviet.vn/?p=444 to https://vivuviet.vn/tour/du-lich-nha-trang-da-lat-5-ngay-4-dem/
+
+16:08:28	Warning: 	Moved Permanently for https://vivuviet.vn/?p=418
+
+16:08:28	Warning: 	File has moved from https://vivuviet.vn/?p=418 to https://vivuviet.vn/tour/tour-bon-dao-nha-trang-2019/
+
+16:08:28	Warning: 	Moved Permanently for https://vivuviet.vn/?p=355
+
+16:08:28	Warning: 	File has moved from https://vivuviet.vn/?p=355 to https://vivuviet.vn/tour/du-lich-da-nang-hoi-an-3-ngay-2-dem/
+
+16:08:28	Error: 	"Not Found" (404) at link https://vivuviet.vn/wp-content/uploads/2019/10/chua-Cau-Hoian-300x200.jpg (from https://vivuviet.vn/tour/du-lich-da-nang-hoi-an-3-ngay-2-dem/)
+
+16:08:28	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/10/ba-na-hills-1-Copy-1-300x181.jpg (from https://vivuviet.vn/tour/du-lich-da-nang-hoi-an-3-ngay-2-dem/)
+
+16:08:30	Warning: 	Moved Permanently for https://vivuviet.vn/?p=430
+
+16:08:30	Warning: 	File has moved from https://vivuviet.vn/?p=430 to https://vivuviet.vn/tour/du-lich-mien-tay-song-nuoc-5-ngay-4-dem/
+
+16:08:30	Warning: 	Moved Permanently for https://vivuviet.vn/?p=878
+
+16:08:30	Warning: 	File has moved from https://vivuviet.vn/?p=878 to https://vivuviet.vn/tour/du-lich-vung-tau-3-ngay-2-dem/
+
+16:08:31	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-singapore/feed/ (from https://vivuviet.vn/danh-muc/du-lich-singapore/)
+
+16:08:31	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-madilves/feed/ (from https://vivuviet.vn/danh-muc/du-lich-madilves/)
+
+16:08:34	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-anh/feed/ (from https://vivuviet.vn/danh-muc/du-lich-anh/)
+
+16:08:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-czech/feed/ (from https://vivuviet.vn/danh-muc/du-lich-czech/)
+
+16:08:36	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-hy-lap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-hy-lap/)
+
+16:08:36	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-scotland/feed/ (from https://vivuviet.vn/danh-muc/du-lich-scotland/)
+
+16:08:37	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-phan-lan/feed/ (from https://vivuviet.vn/danh-muc/du-lich-phan-lan/)
+
+16:08:37	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-cuba/feed/ (from https://vivuviet.vn/danh-muc/du-lich-cuba/)
+
+16:08:40	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/danh-muc/du-lich-ai-cap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-ai-cap/)
+
+16:08:40	Warning: 	Moved Permanently for https://vivuviet.vn/?p=479
+
+16:08:40	Warning: 	File has moved from https://vivuviet.vn/?p=479 to https://vivuviet.vn/khach-san-palazzo-3-da-nang/
+
+16:08:40	Warning: 	Found for https://vivuviet.vn/dat-tour/
+
+16:08:40	Warning: 	File has moved from https://vivuviet.vn/dat-tour/ to https://vivuviet.vn
+
+16:08:40	Warning: 	Moved Permanently for https://vivuviet.vn/?p=731
+
+16:08:40	Warning: 	File has moved from https://vivuviet.vn/?p=731 to https://vivuviet.vn/dat-tour/
+
+16:08:40	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1104
+
+16:08:40	Warning: 	File has moved from https://vivuviet.vn/?p=1104 to https://vivuviet.vn/tour/du-lich-cat-ba-3-ngay-2-dem/
+
+16:08:40	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2020/03/bắc-kinh-3.jpg (from https://vivuviet.vn/dat-tour/?id=MTE2NQ==)
+
+16:08:41	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/wp/v2/users/1 (from https://vivuviet.vn/author/admin/)
+
+16:08:41	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://tech360.vn/wp-content/uploads/2018/06/top-7-cung-duong-phuot-dang-kham-pha-nhat-nam-2018.jpg (from https://vivuviet.vn/top-10-nhung-cung-duong-deo-dep-nhat-tai-viet-nam-thach-thuc-nhung-nguoi-yeu-du-lich-den-chinh-phuc/)
+
+16:08:41	Warning: 	Moved Permanently for https://vivuviet.vn/?p=1083
+
+16:08:41	Warning: 	File has moved from https://vivuviet.vn/?p=1083 to https://vivuviet.vn/tour/tour-du-lich-chua-tay-thien-trong-ngay/
+
+16:08:41	Warning: 	Moved Permanently for https://vivuviet.vn/?p=889
+
+16:08:41	Warning: 	File has moved from https://vivuviet.vn/?p=889 to https://vivuviet.vn/tour/du-lich-phu-tho-le-hoi-den-hung-2-ngay-1-dem/
+
+16:08:41	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2020/01/tam-đảo-1.jpg (from https://vivuviet.vn/dat-tour/?id=ODc2)
+
+16:08:42	Warning: 	Moved Permanently for https://vivuviet.vn/?p=869
+
+16:08:42	Warning: 	File has moved from https://vivuviet.vn/?p=869 to https://vivuviet.vn/tour/du-lich-moc-chau-2-ngay-1-dem/
+
+16:08:42	Warning: 	Moved Permanently for https://vivuviet.vn/dat-tour?id=NjU4
+
+16:08:42	Warning: 	File has moved from https://vivuviet.vn/dat-tour?id=NjU4 to https://vivuviet.vn/dat-tour/?id=NjU4
+
+16:08:42	Warning: 	Moved Permanently for https://vivuviet.vn/?p=521
+
+16:08:42	Warning: 	File has moved from https://vivuviet.vn/?p=521 to https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/
+
+16:08:42	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvivuviet.vn%2Ftour%2Fdu-lich-ninh-binh-trong-ngay%2F (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
+
+16:08:42	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/11/nb-1.jpg (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
+
+16:08:42	Warning: 	Moved Permanently for https://vivuviet.vn/?p=491
+
+16:08:42	Warning: 	File has moved from https://vivuviet.vn/?p=491 to https://vivuviet.vn/tour/du-lich-ho-ba-be-thac-ban-gioc-3-ngay-2-dem/
+
+16:08:42	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvivuviet.vn%2Ftour%2Fdu-lich-ho-ba-be-thac-ban-gioc-3-ngay-2-dem%2F (from https://vivuviet.vn/tour/du-lich-ho-ba-be-thac-ban-gioc-3-ngay-2-dem/)
+
+16:08:43	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/11/Ba-Be-2-Copy.jpg (from https://vivuviet.vn/tour/du-lich-ho-ba-be-thac-ban-gioc-3-ngay-2-dem/)
+
+16:08:44	Warning: 	Moved Permanently for https://vivuviet.vn/?p=937
+
+16:08:44	Warning: 	File has moved from https://vivuviet.vn/?p=937 to https://vivuviet.vn/tour/du-lich-mien-trung-da-nang-hoi-an-hue-dong-hoi-4-ngay-3-dem/
+
+16:08:44	Warning: 	Moved Permanently for https://vivuviet.vn/?p=673
+
+16:08:44	Warning: 	File has moved from https://vivuviet.vn/?p=673 to https://vivuviet.vn/tour/du-lich-vung-tau-phan-thiet-mui-ne-5-ngay-4-dem/
+
+16:08:44	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2019/12/Mui-Ne-6-1.jpg (from https://vivuviet.vn/tour/du-lich-vung-tau-phan-thiet-mui-ne-5-ngay-4-dem/)
+
+16:08:45	Warning: 	Moved Permanently for https://vivuviet.vn/?p=548
+
+16:08:45	Warning: 	File has moved from https://vivuviet.vn/?p=548 to https://vivuviet.vn/tour/du-lich-nha-trang-4-ngay-3-dem/
+
+16:08:45	Warning: 	Moved Permanently for https://vivuviet.vn/?p=372
+
+16:08:45	Warning: 	File has moved from https://vivuviet.vn/?p=372 to https://vivuviet.vn/tour/du-lich-phu-quoc-4-ngay-3-dem/
+
+16:08:46	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://vivuviet.vn/danh-muc/du-lich-hy-lap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-hy-lap/)
+
+16:08:46	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://vivuviet.vn/danh-muc/du-lich-phan-lan/feed/ (from https://vivuviet.vn/danh-muc/du-lich-phan-lan/)
+
+16:08:46	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://vivuviet.vn/danh-muc/du-lich-ai-cap/feed/ (from https://vivuviet.vn/danh-muc/du-lich-ai-cap/)
+
+16:08:46	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-json/wp/v2/users/1 (from https://vivuviet.vn/author/admin/)
+
+16:08:47	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://tech360.vn/wp-content/uploads/2018/06/top-7-cung-duong-phuot-dang-kham-pha-nhat-nam-2018.jpg (from https://vivuviet.vn/top-10-nhung-cung-duong-deo-dep-nhat-tai-viet-nam-thach-thuc-nhung-nguoi-yeu-du-lich-den-chinh-phuc/)
+
+16:08:48	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://vivuviet.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvivuviet.vn%2Ftour%2Fdu-lich-ninh-binh-trong-ngay%2F (from https://vivuviet.vn/tour/du-lich-ninh-binh-trong-ngay/)
+
+16:08:48	Warning: 	Retry after error -4 (No data (connection closed)) at link https://vivuviet.vn/wp-content/uploads/2020/02/den-long-Hoian-1.jpg (from https://vivuviet.vn/dat-tour/?id=OTM3)
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 6 seconds : 1191 links scanned, 1018 files written (222110626 bytes overall) [203509086 bytes received at 372727 bytes/sec], 24896580 bytes transferred using HTTP compression in 505 files, ratio 21%, 13.9 requests per connection
+
+(9 errors, 252 warnings, 0 messages)
+
