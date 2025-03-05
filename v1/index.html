@@ -106,7 +106,27 @@ var postgrid_ajax_load = {"ajax_url":"https:\/\/v1\/wp-admin\/admin-ajax.php","r
 <link rel='shortlink' href='index.html' />
 <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed04c6.json?url=https%3A%2F%2Fv1%2F" />
 <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed756f?url=https%3A%2F%2Fv1%2F&amp;format=xml" />
-<style>.wp-megamenu-wrap &gt; ul.wp-megamenu &gt; li.wpmm_mega_menu &gt; .wpmm-strees-row-container 
+<style>.live-search-results {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-suggestion {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.search-suggestion:hover {
+    background-color: #f5f5f5;
+}
+
+.wp-megamenu-wrap &gt; ul.wp-megamenu &gt; li.wpmm_mega_menu &gt; .wpmm-strees-row-container 
                         &gt; ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu &gt; li.wp-megamenu-item-245.wpmm-item-fixed-width  &gt; ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu&gt;li ul.wp-megamenu-sub-menu #wp-megamenu-item-245&gt;a { }.wpmm-nav-wrap .wp-megamenu&gt;li&gt;ul.wp-megamenu-sub-menu li#wp-megamenu-item-245&gt;a { }li#wp-megamenu-item-245&gt; ul ul ul&gt; li { width: 100%; display: inline-block;} li#wp-megamenu-item-245 a { }#wp-megamenu-item-245&gt; .wp-megamenu-sub-menu { }.wp-megamenu-wrap &gt; ul.wp-megamenu &gt; li.wpmm_mega_menu &gt; .wpmm-strees-row-container 
                         &gt; ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu &gt; li.wp-megamenu-item-244.wpmm-item-fixed-width  &gt; ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu&gt;li ul.wp-megamenu-sub-menu #wp-megamenu-item-244&gt;a { }.wpmm-nav-wrap .wp-megamenu&gt;li&gt;ul.wp-megamenu-sub-menu li#wp-megamenu-item-244&gt;a { }li#wp-megamenu-item-244&gt; ul ul ul&gt; li { width: 100%; display: inline-block;} li#wp-megamenu-item-244 a { }#wp-megamenu-item-244&gt; .wp-megamenu-sub-menu { }</style><style></style>			<style>
 				.hotline-phone-ring-circle {
@@ -376,7 +396,7 @@ var postgrid_ajax_load = {"ajax_url":"https:\/\/v1\/wp-admin\/admin-ajax.php","r
 		<ul class="nav-dropdown nav-dropdown-default">
 	 	<li class="header-search-form search-form html relative has-icon">
 	<div class="header-search-form-wrapper">
-		<div class="searchform-wrapper ux-search-box relative is-normal"><form method="get" class="searchform" action="https://v1/" role="search">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form class="searchform" role="search" >
 		<div class="flex-row relative">
 			<div class="flex-col flex-grow">
 	   	   <input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search" />
@@ -473,84 +493,92 @@ var postgrid_ajax_load = {"ajax_url":"https:\/\/v1\/wp-admin\/admin-ajax.php","r
                 <label for="noi-khoi-hanh">Departure Location</label>
                 <select name="noi-khoi-hanh">
                     <option value="all">All</option>
-                                                    <option value="ha-noi">Hà Nội</option>                         
-                                                            <option value="ho-chi-minh">Hồ Chí Minh</option>                         
+                                                    <option value="ha-noi">Ha Noi</option>                         
+                                                            <option value="ho-chi-minh">Ho Chi Minh City</option>                         
                                             </select>
             </div>
             <div class="box">
                 <label for="diem-den">Destination</label>
                 <select name="diem-den">
-                    <option value="all">All</option>
-                                                    <option value="bac-kan">Bắc Kạn</option>                         
-                                                            <option value="bac-ninh">Bắc Ninh</option>                         
-                                                            <option value="ca-mau">Cà Mau</option>                         
-                                                            <option value="can-tho">Cần Thơ</option>                         
-                                                            <option value="cao-bang">Cao Bằng</option>                         
-                                                            <option value="cat-ba">Cát Bà</option>                         
-                                                            <option value="chau-doc">Châu Đốc</option>                         
-                                                            <option value="chua-tay-thien">Chùa Tây Thiên</option>                         
-                                                            <option value="co-to">Cô Tô</option>                         
-                                                            <option value="da-lat">Đà Lạt</option>                         
-                                                            <option value="da-nang">Đà Nẵng</option>                         
-                                                            <option value="dong-hoi">Đồng Hới</option>                         
-                                                            <option value="dong-thap">Đồng Tháp</option>                         
-                                                            <option value="ha-giang">Hà Giang</option>                         
-                                                            <option value="ha-long">Hạ Long</option>                         
-                                                            <option value="ha-noi">Hà Nội</option>                         
-                                                            <option value="hai-phong">Hải Phòng</option>                         
-                                                            <option value="hoi-an">Hội An</option>                         
-                                                            <option value="hue">Huế</option>                         
-                                                            <option value="khu-du-lich-dai-nam">Khu du lịch Đại Nam</option>                         
-                                                            <option value="kien-giang">Kiên Giang</option>                         
-                                                            <option value="lang-son">Lạng Sơn</option>                         
-                                                            <option value="mai-chau">Mai Châu</option>                         
-                                                            <option value="moc-chau">Mộc Châu</option>                         
-                                                            <option value="mu-cang-chai">Mù Căng Chải</option>                         
-                                                            <option value="my-tho">Mỹ Tho</option>                         
-                                                            <option value="nghe-an">Nghệ An</option>                         
-                                                            <option value="nha-trang">Nha Trang</option>                         
-                                                            <option value="ninh-binh">Ninh Bình</option>                         
-                                                            <option value="phan-thiet">Phan Thiết</option>                         
-                                                            <option value="phu-quoc">Phú Quốc</option>                         
-                                                            <option value="phu-yen-2">Phú Yên</option>                         
-                                                            <option value="quang-binh">Quảng Bình</option>                         
-                                                            <option value="quang-ninh">Quảng Ninh</option>                         
-                                                            <option value="quy-nhon-2">Quy Nhơn</option>                         
-                                                            <option value="sai-gon">Sài Gòn</option>                         
-                                                            <option value="sapa">Sapa</option>                         
-                                                            <option value="tam-dao">Tam Đảo</option>                         
-                                                            <option value="thanh-hoa">Thanh Hóa</option>                         
-                                                            <option value="vung-tau">Vũng Tàu</option>                         
-                                            </select>
+					<option value="all">All</option>
+					<option value="ha-noi">Ha Noi</option>
+					<option value="sapa">Sapa</option>
+					<option value="mai-chau">Mai Chau</option>
+					<option value="ninh-binh">Ninh Binh</option>
+					<option value="cao-bang">Cao Bang</option>
+					<option value="phu-tho">Phu Tho</option>
+					<option value="bac-kan">Bac Kan</option>
+					<option value="dien-bien">Dien Bien</option>
+					<option value="hai-phong">Hai Phong</option>
+					<option value="vinh-phuc">Vinh Phuc</option>
+					<option value="quang-ninh">Quang Ninh</option>
+					<option value="lang-son">Lang Son</option>
+					<option value="moc-chau">Moc Chau</option>
+					<option value="bac-ninh">Bac Ninh</option>
+					<option value="ha-giang">Ha Giang</option>
+					<option value="nghe-an">Nghe An</option>
+					<option value="ha-tinh">Ha Tinh</option>
+					<option value="hue">Hue</option>
+					<option value="da-nang">Da Nang</option>
+					<option value="da-lat">Da Lat</option>
+					<option value="nha-trang">Nha Trang</option>
+					<option value="quy-nhon">Quy Nhon</option>
+					<option value="phu-yen">Phu Yen</option>
+					<option value="ninh-thuan">Ninh Thuan</option>
+					<option value="quang-binh">Quang Binh</option>
+					<option value="quang-tri">Quang Tri</option>
+					<option value="tay-nguyen">Tay Nguyen</option>
+					<option value="thanh-hoa">Thanh Hoa</option>
+					<option value="hoi-an">Hoi An</option>
+					<option value="phan-thiet">Phan Thiet</option>
+					<option value="phu-quoc">Phu Quoc</option>
+					<option value="thanh-pho-ho-chi-minh">Ho Chi Minh City</option>
+					<option value="can-tho">Can Tho</option>
+					<option value="vung-tau">Vung Tau</option>
+					<option value="ca-mau">Ca Mau</option>
+					<option value="long-an">Long An</option>
+					<option value="nam-du">Nam Du</option>
+					<option value="soc-trang">Soc Trang</option>
+					<option value="bac-lieu">Bac Lieu</option>
+					<option value="ben-tre">Ben Tre</option>
+					<option value="kien-giang">Kien Giang</option>
+					<option value="ha-tien">Ha Tien</option>
+					<option value="con-dao">Con Dao</option>
+					<option value="my-tho">My Tho</option>
+					<option value="dong-thap">Dong Thap</option>
+					<option value="an-giang">An Giang</option>
+					<option value="chau-doc">Chau Doc</option>
+				</select>
+				
             </div>
             <div class="box">
                 <label for="muc-gia">Price Range</label>
                 <select name="muc-gia">
                     <option value="all">All</option>
-                                                    <option value="duoi-1-trieu">Dưới 1 triệu</option>                         
-                                                            <option value="tu-1-den-2-trieu">Từ 1 đến 2 triệu</option>                         
-                                                            <option value="tu-10-den-15-trieu">Từ 10 đến 15 triệu</option>                         
-                                                            <option value="tu-2-den-3-trieu">Từ 2 đến 3 triệu</option>                         
-                                                            <option value="tu-3-den-5-trieu">Từ 3 đến 5 triệu</option>                         
-                                                            <option value="tu-5-den-7-trieu">Từ 5 đến 7 triệu</option>                         
-                                                            <option value="tu-7-den-10-trieu">Từ 7 đến 10 triệu</option>                         
+                                                    <option value="duoi-1-trieu">Under 1 million VND</option>                         
+                                                            <option value="tu-1-den-2-trieu">From 1 to 2 million VND</option>                         
+                                                            <option value="tu-10-den-15-trieu">From 10 to 15 million VND</option>                         
+                                                            <option value="tu-2-den-3-trieu">From 2 to 3 million VND</option>                         
+                                                            <option value="tu-3-den-5-trieu">From 3 to 5 million VND</option>                         
+                                                            <option value="tu-5-den-7-trieu">From 5 to 7 million VND</option>                         
+                                                            <option value="tu-7-den-10-trieu">From 7 to 10 million VND</option>                         
                                             </select>
             </div>
             <div class="box">
                 <label for="thoi-gian">Duration</label>
                 <select name="thoi-gian">
                     <option value="all">All</option>
-                                                    <option value="2-ngay-1-dem">2 ngày 1 đêm</option>                         
-                                                            <option value="3-ngay-2-dem">3 ngày 2 đêm</option>                         
-                                                            <option value="3-ngay-3-dem">3 ngày 3 đêm</option>                         
-                                                            <option value="4-ngay-3-dem">4 ngày 3 đêm</option>                         
-                                                            <option value="5-ngay-4-dem">5 ngày 4 đêm</option>                         
-                                                            <option value="6-ngay-5-dem">6 ngày 5 đêm</option>                         
-                                                            <option value="trong-ngay">Trong ngày</option>                         
+                                                    <option value="2-ngay-1-dem">2 days 1 night</option>                         
+                                                            <option value="3-ngay-2-dem">3 days 2 night</option>                         
+                                                            <option value="3-ngay-3-dem">3 days 3 night</option>                         
+                                                            <option value="4-ngay-3-dem">4 days 3 night</option>                         
+                                                            <option value="5-ngay-4-dem">5 days 4 night</option>                         
+                                                            <option value="6-ngay-5-dem">6 days 5 night</option>                         
+                                                            <option value="trong-ngay">On days</option>                         
                                             </select>
             </div>
             <div class="box">
-                <button type="submit"><i class="fa fa-search"></i>  Search(đang lỗi,đừng ấn)</button>
+                <button type="submit"><i class="fa fa-search"></i>  Search</button>
             </div>
         </div>
     </form>    
@@ -566,83 +594,82 @@ var postgrid_ajax_load = {"ajax_url":"https:\/\/v1\/wp-admin\/admin-ajax.php","r
                 <label for="noi-khoi-hanh">Departure Location</label>
                 <select name="noi-khoi-hanh">
                     <option value="all">All</option>
-                                                    <option value="ha-noi">Hà Nội</option>                         
-                                                            <option value="ho-chi-minh">Hồ Chí Minh</option>                         
+                                                    <option value="ha-noi">Ha Noi</option>                         
+                                                            <option value="ho-chi-minh">Ho Chi Minh City</option>                         
                                             </select>
             </div>
             <div class="box">
                 <label for="diem-den">Destination</label>
                 <select name="diem-den">
-                    <option value="all">All</option>
-                                                    <option value="ai-cap">Ai Cập</option>                         
-                                                            <option value="an-do">Ấn Độ</option>                         
-                                                            <option value="anh">Anh</option>                         
-                                                            <option value="ao">Áo</option>                         
-                                                            <option value="bhutan">Bhutan</option>                         
-                                                            <option value="bi">Bỉ</option>                         
-                                                            <option value="brazil">Brazil</option>                         
-                                                            <option value="brunei">Brunei</option>                         
-                                                            <option value="campuchia">Campuchia</option>                         
-                                                            <option value="cuba">Cuba</option>                         
-                                                            <option value="czech">Czech</option>                         
-                                                            <option value="dai-loan">Đài Loan</option>                         
-                                                            <option value="dubai">Dubai</option>                         
-                                                            <option value="duc">Đức</option>                         
-                                                            <option value="ha-lan">Hà Lan</option>                         
-                                                            <option value="han-quoc">Hàn Quốc</option>                         
-                                                            <option value="hong-kong">Hồng Kông</option>                         
-                                                            <option value="hungary">Hungary</option>                         
-                                                            <option value="hy-lap">Hy lạp</option>                         
-                                                            <option value="indonesia">Indonesia</option>                         
-                                                            <option value="lao">Lào</option>                         
-                                                            <option value="madilves">Madilves</option>                         
-                                                            <option value="malaysia">Malaysia</option>                         
-                                                            <option value="maroc">Maroc</option>                         
-                                                            <option value="monaco">Monaco</option>                         
-                                                            <option value="mong-co">Mông Cổ</option>                         
-                                                            <option value="my">Mỹ</option>                         
-                                                            <option value="nam-phi">Nam Phi</option>                         
-                                                            <option value="new-zealand">New Zealand</option>                         
-                                                            <option value="nga">Nga</option>                         
-                                                            <option value="nhat-ban">Nhật Bản</option>                         
-                                                            <option value="phan-lan">Phần Lan</option>                         
-                                                            <option value="phap">Pháp</option>                         
-                                                            <option value="philippines">Philippines</option>                         
-                                                            <option value="scotland">Scotland</option>                         
-                                                            <option value="singapore">Singapore</option>                         
-                                                            <option value="thai-lan">Thái Lan</option>                         
-                                                            <option value="tho-nhi-ky">Thổ Nhĩ Kỳ</option>                         
-                                                            <option value="thuy-dien">Thụy Điển</option>                         
-                                                            <option value="thuy-sy">Thụy Sỹ</option>                         
-                                                            <option value="trung-quoc">Trung Quốc</option>                         
-                                                            <option value="uc">Úc</option>                         
-                                                            <option value="y">Ý</option>                         
-                                            </select>
+					<option value="all">All</option>
+					<option value="uc">Australia</option>                         
+					<option value="ao">Austria</option>                         
+					<option value="bi">Belgium</option>                         
+					<option value="bhutan">Bhutan</option>                         
+					<option value="brazil">Brazil</option>                         
+					<option value="brunei">Brunei</option>                         
+					<option value="campuchia">Cambodia</option>                         
+					<option value="trung-quoc">China</option>                         
+					<option value="cuba">Cuba</option>                         
+					<option value="czech">Czech Republic</option>                         
+					<option value="dai-loan">Taiwan</option>                         
+					<option value="dubai">Dubai</option>                         
+					<option value="ai-cap">Egypt</option>                         
+					<option value="phap">France</option>                         
+					<option value="duc">Germany</option>                         
+					<option value="hy-lap">Greece</option>                         
+					<option value="hong-kong">Hong Kong</option>                         
+					<option value="hungary">Hungary</option>                         
+					<option value="an-do">India</option>                         
+					<option value="indonesia">Indonesia</option>                         
+					<option value="y">Italy</option>                         
+					<option value="nhat-ban">Japan</option>                         
+					<option value="lao">Laos</option>                         
+					<option value="madilves">Maldives</option>                         
+					<option value="malaysia">Malaysia</option>                         
+					<option value="maroc">Morocco</option>                         
+					<option value="monaco">Monaco</option>                         
+					<option value="mong-co">Mongolia</option>                         
+					<option value="my">United States</option>                         
+					<option value="ha-lan">Netherlands</option>                         
+					<option value="new-zealand">New Zealand</option>                         
+					<option value="nga">Russia</option>                         
+					<option value="scotland">Scotland</option>                         
+					<option value="singapore">Singapore</option>                         
+					<option value="nam-phi">South Africa</option>                         
+					<option value="han-quoc">South Korea</option>                         
+					<option value="thuy-dien">Sweden</option>                         
+					<option value="thuy-sy">Switzerland</option>                         
+					<option value="thai-lan">Thailand</option>                         
+					<option value="tho-nhi-ky">Turkey</option>                         
+					<option value="anh">United Kingdom</option>                         
+				</select>
+				
             </div>
             <div class="box">
                 <label for="muc-gia">Price Range</label>
                 <select name="muc-gia">
                     <option value="all">All</option>
-                                                    <option value="duoi-1-trieu">Dưới 1 triệu</option>                         
-                                                            <option value="tu-1-den-2-trieu">Từ 1 đến 2 triệu</option>                         
-                                                            <option value="tu-10-den-15-trieu">Từ 10 đến 15 triệu</option>                         
-                                                            <option value="tu-2-den-3-trieu">Từ 2 đến 3 triệu</option>                         
-                                                            <option value="tu-3-den-5-trieu">Từ 3 đến 5 triệu</option>                         
-                                                            <option value="tu-5-den-7-trieu">Từ 5 đến 7 triệu</option>                         
-                                                            <option value="tu-7-den-10-trieu">Từ 7 đến 10 triệu</option>                         
+					<option value="duoi-1-trieu">Under 1 million VND</option>                         
+					<option value="tu-1-den-2-trieu">From 1 to 2 million VND</option>                         
+					<option value="tu-10-den-15-trieu">From 10 to 15 million VND</option>                         
+					<option value="tu-2-den-3-trieu">From 2 to 3 million VND</option>                         
+					<option value="tu-3-den-5-trieu">From 3 to 5 million VND</option>                         
+					<option value="tu-5-den-7-trieu">From 5 to 7 million VND</option>                         
+					<option value="tu-7-den-10-trieu">From 7 to 10 million VND</option>                         
                                             </select>
             </div>
             <div class="box">
                 <label for="thoi-gian">Duration</label>
                 <select name="thoi-gian">
                     <option value="all">All</option>
-                                                    <option value="2-ngay-1-dem">2 ngày 1 đêm</option>                         
-                                                            <option value="3-ngay-2-dem">3 ngày 2 đêm</option>                         
-                                                            <option value="3-ngay-3-dem">3 ngày 3 đêm</option>                         
-                                                            <option value="4-ngay-3-dem">4 ngày 3 đêm</option>                         
-                                                            <option value="5-ngay-4-dem">5 ngày 4 đêm</option>                         
-                                                            <option value="6-ngay-5-dem">6 ngày 5 đêm</option>                         
-                                                            <option value="trong-ngay">Trong ngày</option>                         
+                                                    <option value="2-ngay-1-dem">2 days 1 nights</option>                         
+                                                            <option value="3-ngay-2-dem">3 days 2 nights</option>                         
+                                                            <option value="3-ngay-3-dem">3 days 3 nights</option>                         
+                                                            <option value="4-ngay-3-dem">4 days 3 nights</option>                         
+                                                            <option value="5-ngay-4-dem">5 days 4 nights</option>                         
+                                                            <option value="6-ngay-5-dem">6 days 5 nights</option>                         
+                                                            <option value="trong-ngay">On days</option>                         
                                             </select>
             </div>
             <div class="box">
@@ -2726,7 +2753,8 @@ var flatsomeVars = {"ajaxurl":"https:\/\/v1\/wp-admin\/admin-ajax.php","rtl":"",
 <script type='text/javascript' src='wp-content/themes/sangtao24h/assets/slider/js/lightslider.min.js'></script>
 <script type='text/javascript' src="wp-content/themes/sangtao24h/assets/js/jquery.lockfixed.min.js" /></script>
 <script language="javascript" src="wp-content/themes/sangtao24h/assets/js/custom.js"></script>
-
+<script type='text/javascript' src='./timkiem.js'></script>
+<script type='text/javascript' src='./timkiem2.js'></script>
 
 </body>
 
