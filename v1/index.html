@@ -106,7 +106,31 @@ var postgrid_ajax_load = {"ajax_url":"https:\/\/v1\/wp-admin\/admin-ajax.php","r
 <link rel='shortlink' href='index.html' />
 <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed04c6.json?url=https%3A%2F%2Fv1%2F" />
 <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed756f?url=https%3A%2F%2Fv1%2F&amp;format=xml" />
-<style>.live-search-results {
+<style>
+	.submenu {
+  display: none;
+  padding-left: 15px;
+  border-left: 2px solid #ddd;
+}
+
+.has-submenu .toggle-submenu {
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  user-select: none;
+  color: #007bff;
+}
+
+.has-submenu.open > .submenu {
+  display: block;
+}
+
+.has-submenu.open > .toggle-submenu {
+  transform: rotate(90deg);
+}
+
+.live-search-results {
     position: absolute;
     background: white;
     border: 1px solid #ddd;
@@ -2690,18 +2714,165 @@ Address: 4 Hang Be Street, Hoan Kiem District Hanoi, Capital, Hà Nội 100000, 
 
 <!-- Mobile Sidebar -->
 <div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
-    <div class="sidebar-menu no-scrollbar ">
-        <ul class="nav nav-sidebar  nav-vertical nav-uppercase">
-              <li id="menu-item-630" class="menu-item menu-item-type-taxonomy menu-item-object-danh-muc menu-item-630"><a href="danh-muc/du-lich-trong-nuoc/index.html" class="nav-top-link">Domestic Tours</a></li>
-<li id="menu-item-631" class="menu-item menu-item-type-taxonomy menu-item-object-danh-muc menu-item-631"><a href="danh-muc/du-lich-nuoc-ngoai/index.html" class="nav-top-link">International Tours</a></li>
-<li id="menu-item-897" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-897"><a href="khach-san/index.html" class="nav-top-link">Hotels</a></li>
-<li id="menu-item-633" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-633"><a href="category/thue-xe/index.html" class="nav-top-link">Car Rental</a></li>
-<li id="menu-item-634" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-634"><a href="category/cam-nang/index.html" class="nav-top-link">Guides</a></li>
-<li id="menu-item-635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-635"><a href="lien-he/index.html" class="nav-top-link">Contact</a></li>
-<li class="html header-social-icons ml-0">
-	<div class="social-icons follow-icons" ><a href="http://url/" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="http://url/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Follow on Instagram"><i class="icon-instagram" ></i></a><a href="http://url/" target="_blank"  data-label="Twitter"  rel="noopener noreferrer nofollow" class="icon plain  twitter tooltip" title="Follow on Twitter"><i class="icon-twitter" ></i></a><a href="mailto:your@email" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Send us an email"><i class="icon-envelop" ></i></a></div></li>        </ul>
-    </div><!-- inner -->
-</div><!-- #mobile-menu -->
+    <div class="sidebar-menu no-scrollbar">
+        <ul class="nav nav-sidebar nav-vertical nav-uppercase">
+            <li class="menu-item has-submenu">
+                <a href="danh-muc/du-lich-trong-nuoc/index.html" class="nav-top-link">Domestic Tours</a>
+                <span class="toggle-submenu">+</span>
+                <ul class="submenu">
+                    <li class="menu-item has-submenu">
+                        <a href="danh-muc/du-lich-mien-bac/index.html">Northern Vietnam Tours</a>
+                        <span class="toggle-submenu"><i class='fa fa-chevron-down'></i></span>
+                        <ul class="submenu">
+                            <li><a href="danh-muc/du-lich-ha-noi/index.html">Ha Noi Tours</a></li>
+                            <li><a href="danh-muc/du-lich-sapa/index.html">Sapa Tours</a></li>
+                            <li><a href="danh-muc/du-lich-ninh-binh/index.html">Ninh Binh Tours</a></li>
+                            <li><a href="danh-muc/du-lich-mai-chau/index.html">Mai Chau Tours</a></li>
+                            <li><a href="danh-muc/du-lich-cao-bang/index.html">Cao Bang Tours</a></li>
+                            <li><a href="danh-muc/du-lich-phu-tho/index.html">Phu Tho Tours</a></li>
+                            <li><a href="danh-muc/du-lich-bac-kan/index.html">Bac Kan Tours</a></li>
+                            <li><a href="danh-muc/du-lich-dien-bien/index.html">Dien Bien Tours</a></li>
+                            <li><a href="danh-muc/du-lich-hai-phong/index.html">Hai Phong Tours</a></li>
+                            <li><a href="danh-muc/du-lich-vinh-phuc/index.html">Vinh Phuc Tours</a></li>
+                            <li><a href="danh-muc/du-lich-quang-ninh/index.html">Quang Ninh Tours</a></li>
+                            <li><a href="danh-muc/du-lich-lang-son/index.html">Lang Son Tours</a></li>
+                            <li><a href="danh-muc/du-lich-moc-chau/index.html">Moc Chau Tours</a></li>
+                            <li><a href="danh-muc/du-lich-bac-ninh/index.html">Bac Ninh Tours</a></li>
+                            <li><a href="danh-muc/du-lich-ha-giang/index.html">Ha Giang Tours</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <a href="danh-muc/du-lich-mien-trung/index.html">Central Vietnam Tours</a>
+                        <span class="toggle-submenu"><i class='fa fa-chevron-down'></i></span>
+                        <ul class="submenu">
+                            <li><a href="danh-muc/du-lich-da-nang/index.html">Da Nang Tours</a></li>
+                            <li><a href="danh-muc/du-lich-hue/index.html">Hue Tours</a></li>
+                            <li><a href="danh-muc/du-lich-da-lat/index.html">Da Lat Tours</a></li>
+                            <li><a href="danh-muc/du-lich-nha-trang/index.html">Nha Trang Tours</a></li>
+                            <li><a href="danh-muc/du-lich-quy-nhon/index.html">Quy Nhon Tours</a></li>
+                            <li><a href="danh-muc/du-lich-phu-yen/index.html">Phu Yen Tours</a></li>
+                            <li><a href="danh-muc/du-lich-ninh-thuan/index.html">Ninh Thuan Tours</a></li>
+                            <li><a href="danh-muc/du-lich-quang-binh/index.html">Quang Binh Tours</a></li>
+                            <li><a href="danh-muc/du-lich-quang-tri/index.html">Quang Tri Tours</a></li>
+                            <li><a href="danh-muc/du-lich-tay-nguyen/index.html">Tay Nguyen Tours</a></li>
+                            <li><a href="danh-muc/du-lich-thanh-hoa/index.html">Thanh Hoa Tours</a></li>
+                            <li><a href="danh-muc/du-lich-hoi-an/index.html">Hoi An Tours</a></li>
+                            <li><a href="danh-muc/du-lich-phan-thiet/index.html">Phan Thiet Tours</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-submenu">
+                        <a href="danh-muc/du-lich-mien-nam/index.html">Southern Vietnam Tours</a>
+                        <span class="toggle-submenu"><i class='fa fa-chevron-down'></i></span>
+                        <ul class="submenu">
+                            <li><a href="danh-muc/du-lich-phu-quoc/index.html">Phu Quoc Tours</a></li>
+                            <li><a href="danh-muc/du-lich-ho-chi-minh/index.html">Ho Chi Minh City Tours</a></li>
+                            <li><a href="danh-muc/du-lich-can-tho/index.html">Can Tho Tours</a></li>
+                            <li><a href="danh-muc/du-lich-vung-tau/index.html">Vung Tau Tours</a></li>
+                            <li><a href="danh-muc/du-lich-ca-mau/index.html">Ca Mau Tours</a></li>
+                            <li><a href="danh-muc/du-lich-long-an/index.html">Long An Tours</a></li>
+                            <li><a href="danh-muc/du-lich-nam-du/index.html">Nam Du Tours</a></li>
+                            <li><a href="danh-muc/du-lich-soc-trang/index.html">Soc Trang Tours</a></li>
+                            <li><a href="danh-muc/du-lich-ben-tre/index.html">Ben Tre Tours</a></li>
+                            <li><a href="danh-muc/du-lich-con-dao/index.html">Con Dao Tours</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item has-submenu">
+				<a href="danh-muc/du-lich-nuoc-ngoai/index.html" class="nav-top-link">International Tours</a>
+				<span class="toggle-submenu">+</span>
+				<ul class="submenu">
+					<li class="menu-item has-submenu">
+						<a href="danh-muc/du-lich-chau-a/index.html">Asia Tours</a>
+						<span class="toggle-submenu"><i class='fa fa-chevron-down'></i></span>
+						<ul class="submenu">
+							<li><a href="danh-muc/du-lich-trung-quoc/index.html">China Tours</a></li>
+							<li><a href="danh-muc/du-lich-han-quoc/index.html">Korea Tours</a></li>
+							<li><a href="danh-muc/du-lich-nhat-ban/index.html">Japan Tours</a></li>
+							<li><a href="danh-muc/du-lich-thai-lan/index.html">Thailand Tours</a></li>
+							<li><a href="danh-muc/du-lich-an-do/index.html">India Tours</a></li>
+							<li><a href="danh-muc/du-lich-singapore/index.html">Singapore Tours</a></li>
+							<li><a href="danh-muc/du-lich-malaysia/index.html">Malaysia Tours</a></li>
+							<li><a href="danh-muc/du-lich-indonesia/index.html">Indonesia Tours</a></li>
+							<li><a href="danh-muc/du-lich-philippines/index.html">Philippines Tours</a></li>
+							<li><a href="danh-muc/du-lich-campuchia/index.html">Cambodia Tours</a></li>
+							<li><a href="danh-muc/du-lich-lao/index.html">Laos Tours</a></li>
+							<li><a href="danh-muc/du-lich-myanmar/index.html">Myanmar Tours</a></li>
+							<li><a href="danh-muc/du-lich-sri-lanka/index.html">Sri Lanka Tours</a></li>
+							<li><a href="danh-muc/du-lich-nepal/index.html">Nepal Tours</a></li>
+							<li><a href="danh-muc/du-lich-bhutan/index.html">Bhutan Tours</a></li>
+							<li><a href="danh-muc/du-lich-maldives/index.html">Maldives Tours</a></li>
+							<li><a href="danh-muc/du-lich-dai-loan/index.html">Taiwan Tours</a></li>
+							<li><a href="danh-muc/du-lich-hong-kong/index.html">Hong Kong Tours</a></li>
+						</ul>
+					</li>
+					<li class="menu-item has-submenu">
+						<a href="danh-muc/du-lich-chau-au/index.html">Europe Tours</a>
+						<span class="toggle-submenu"><i class='fa fa-chevron-down'></i></span>
+						<ul class="submenu">
+							<li><a href="danh-muc/du-lich-anh/index.html">England Tours</a></li>
+							<li><a href="danh-muc/du-lich-phap/index.html">France Tours</a></li>
+							<li><a href="danh-muc/du-lich-duc/index.html">Germany Tours</a></li>
+							<li><a href="danh-muc/du-lich-italy/index.html">Italy Tours</a></li>
+							<li><a href="danh-muc/du-lich-tay-ban-nha/index.html">Spain Tours</a></li>
+							<li><a href="danh-muc/du-lich-bo-dao-nha/index.html">Portugal Tours</a></li>
+							<li><a href="danh-muc/du-lich-ha-lan/index.html">Netherlands Tours</a></li>
+							<li><a href="danh-muc/du-lich-bi/index.html">Belgium Tours</a></li>
+							<li><a href="danh-muc/du-lich-thuy-sy/index.html">Switzerland Tours</a></li>
+							<li><a href="danh-muc/du-lich-ao/index.html">Austria Tours</a></li>
+							<li><a href="danh-muc/du-lich-hy-lap/index.html">Greece Tours</a></li>
+							<li><a href="danh-muc/du-lich-tho-nhi-ky/index.html">Turkey Tours</a></li>
+							<li><a href="danh-muc/du-lich-thuy-dien/index.html">Sweden Tours</a></li>
+							<li><a href="danh-muc/du-lich-na-uy/index.html">Norway Tours</a></li>
+							<li><a href="danh-muc/du-lich-dan-mach/index.html">Denmark Tours</a></li>
+							<li><a href="danh-muc/du-lich-nga/index.html">Russia Tours</a></li>
+						</ul>
+					</li>
+					<li class="menu-item has-submenu">
+						<a href="danh-muc/du-lich-chau-my/index.html">America Tours</a>
+						<span class="toggle-submenu"><i class='fa fa-chevron-down'></i></span>
+						<ul class="submenu">
+							<li><a href="danh-muc/du-lich-my/index.html">USA Tours</a></li>
+							<li><a href="danh-muc/du-lich-canada/index.html">Canada Tours</a></li>
+							<li><a href="danh-muc/du-lich-brazil/index.html">Brazil Tours</a></li>
+							<li><a href="danh-muc/du-lich-mexico/index.html">Mexico Tours</a></li>
+							<li><a href="danh-muc/du-lich-argentina/index.html">Argentina Tours</a></li>
+							<li><a href="danh-muc/du-lich-chile/index.html">Chile Tours</a></li>
+							<li><a href="danh-muc/du-lich-peru/index.html">Peru Tours</a></li>
+							<li><a href="danh-muc/du-lich-colombia/index.html">Colombia Tours</a></li>
+							<li><a href="danh-muc/du-lich-cuba/index.html">Cuba Tours</a></li>
+							<li><a href="danh-muc/du-lich-costa-rica/index.html">Costa Rica Tours</a></li>
+						</ul>
+					</li>
+					<li class="menu-item has-submenu">
+						<a href="danh-muc/du-lich-chau-phi/index.html">Africa Tours</a>
+						<span class="toggle-submenu"><i class='fa fa-chevron-down'></i></span>
+						<ul class="submenu">
+							<li><a href="danh-muc/du-lich-ai-cap/index.html">Egypt Tours</a></li>
+							<li><a href="danh-muc/du-lich-nam-phi/index.html">South Africa Tours</a></li>
+							<li><a href="danh-muc/du-lich-maroc/index.html">Morocco Tours</a></li>
+							<li><a href="danh-muc/du-lich-kenya/index.html">Kenya Tours</a></li>
+							<li><a href="danh-muc/du-lich-tanzania/index.html">Tanzania Tours</a></li>
+							<li><a href="danh-muc/du-lich-uganda/index.html">Uganda Tours</a></li>
+							<li><a href="danh-muc/du-lich-rwanda/index.html">Rwanda Tours</a></li>
+							<li><a href="danh-muc/du-lich-zambia/index.html">Zambia Tours</a></li>
+							<li><a href="danh-muc/du-lich-zimbabwe/index.html">Zimbabwe Tours</a></li>
+							<li><a href="danh-muc/du-lich-botswana/index.html">Botswana Tours</a></li>
+							<li><a href="danh-muc/du-lich-namibia/index.html">Namibia Tours</a></li>
+							<li><a href="danh-muc/du-lich-senegal/index.html">Senegal Tours</a></li>
+							<li><a href="danh-muc/du-lich-ghana/index.html">Ghana Tours</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+            <li><a href="khach-san/index.html" class="nav-top-link">Hotels</a></li>
+            <li><a href="category/thue-xe/index.html" class="nav-top-link">Car Rental</a></li>
+            <li><a href="category/cam-nang/index.html" class="nav-top-link">Guides</a></li>
+            <li><a href="lien-he/index.html" class="nav-top-link">Contact</a></li>
+        </ul>
+    </div>
+</div>
+<!-- #mobile-menu -->
 		<div class="zalo-container left" style="bottom:115px;">
 			<a id="zalo-btn" href="https://zalo.me/0917721280" target="_blank" rel="noopener noreferrer nofollow">
 								<div class="animated_zalo infinite zoomIn_zalo cmoz-alo-circle"></div>
@@ -2755,6 +2926,7 @@ var flatsomeVars = {"ajaxurl":"https:\/\/v1\/wp-admin\/admin-ajax.php","rtl":"",
 <script language="javascript" src="wp-content/themes/sangtao24h/assets/js/custom.js"></script>
 <script type='text/javascript' src='./timkiem.js'></script>
 <script type='text/javascript' src='./timkiem2.js'></script>
+<script type='text/javascript' src='./timkiem3.js'></script>
 
 </body>
 
