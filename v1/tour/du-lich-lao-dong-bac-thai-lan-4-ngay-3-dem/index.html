@@ -109,8 +109,94 @@ var postgrid_ajax_load = {"ajax_url":"https:\/\/v1\/wp-admin\/admin-ajax.php","r
 <link rel='shortlink' href='../../index9d87.html?p=422' />
 <link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed21de.json?url=https%3A%2F%2Fv1%2Ftour%2Fdu-lich-lao-dong-bac-thai-lan-4-ngay-3-dem%2F" />
 <link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embed425c?url=https%3A%2F%2Fv1%2Ftour%2Fdu-lich-lao-dong-bac-thai-lan-4-ngay-3-dem%2F&amp;format=xml" />
-<style>.wp-megamenu-wrap &gt; ul.wp-megamenu &gt; li.wpmm_mega_menu &gt; .wpmm-strees-row-container 
-                        &gt; ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu &gt; li.wp-megamenu-item-245.wpmm-item-fixed-width  &gt; ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu&gt;li ul.wp-megamenu-sub-menu #wp-megamenu-item-245&gt;a { }.wpmm-nav-wrap .wp-megamenu&gt;li&gt;ul.wp-megamenu-sub-menu li#wp-megamenu-item-245&gt;a { }li#wp-megamenu-item-245&gt; ul ul ul&gt; li { width: 100%; display: inline-block;} li#wp-megamenu-item-245 a { }#wp-megamenu-item-245&gt; .wp-megamenu-sub-menu { }.wp-megamenu-wrap &gt; ul.wp-megamenu &gt; li.wpmm_mega_menu &gt; .wpmm-strees-row-container 
+<style>.submenu {
+  display: none;
+  padding-left: 15px;
+  border-left: 2px solid #ddd;
+}
+
+.has-submenu .toggle-submenu {
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  user-select: none;
+  color: #007bff;
+}
+
+.has-submenu.open > .submenu {
+  display: block;
+}
+
+.has-submenu.open > .toggle-submenu {
+  transform: rotate(90deg);
+}
+
+.live-search-results {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-suggestion {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.search-suggestion:hover {
+    background-color: #f5f5f5;
+}
+
+.wp-megamenu-wrap &gt; ul.wp-megamenu &gt; li.wpmm_mega_menu &gt; .wpmm-strees-row-container 
+                        &gt; ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu &gt; li.wp-megamenu-item-245.wpmm-item-fixed-width  &gt; ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu&gt;li ul.wp-megamenu-sub-menu #wp-megamenu-item-245&gt;a { }.wpmm-nav-wrap .wp-megamenu&gt;li&gt;ul.wp-megamenu-sub-menu li#wp-megamenu-item-245&gt;a { }li#wp-megamenu-item-245&gt; ul ul ul&gt; li { width: 100%; display: inline-block;} li#wp-megamenu-item-245 a { }#wp-megamenu-item-245&gt; .wp-megamenu-sub-menu { }.submenu {
+  display: none;
+  padding-left: 15px;
+  border-left: 2px solid #ddd;
+}
+
+.has-submenu .toggle-submenu {
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  user-select: none;
+  color: #007bff;
+}
+
+.has-submenu.open > .submenu {
+  display: block;
+}
+
+.has-submenu.open > .toggle-submenu {
+  transform: rotate(90deg);
+}
+
+.live-search-results {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-suggestion {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.search-suggestion:hover {
+    background-color: #f5f5f5;
+}
+
+.wp-megamenu-wrap &gt; ul.wp-megamenu &gt; li.wpmm_mega_menu &gt; .wpmm-strees-row-container 
                         &gt; ul.wp-megamenu-sub-menu { width: 100% !important;}.wp-megamenu &gt; li.wp-megamenu-item-244.wpmm-item-fixed-width  &gt; ul.wp-megamenu-sub-menu { width: 100% !important;}.wpmm-nav-wrap ul.wp-megamenu&gt;li ul.wp-megamenu-sub-menu #wp-megamenu-item-244&gt;a { }.wpmm-nav-wrap .wp-megamenu&gt;li&gt;ul.wp-megamenu-sub-menu li#wp-megamenu-item-244&gt;a { }li#wp-megamenu-item-244&gt; ul ul ul&gt; li { width: 100%; display: inline-block;} li#wp-megamenu-item-244 a { }#wp-megamenu-item-244&gt; .wp-megamenu-sub-menu { }</style><style></style>			<style>
 				.hotline-phone-ring-circle {
 					border-color: #40C351;
@@ -379,7 +465,7 @@ var postgrid_ajax_load = {"ajax_url":"https:\/\/v1\/wp-admin\/admin-ajax.php","r
 		<ul class="nav-dropdown nav-dropdown-default">
 	 	<li class="header-search-form search-form html relative has-icon">
 	<div class="header-search-form-wrapper">
-		<div class="searchform-wrapper ux-search-box relative is-normal"><form method="get" class="searchform" action="https://v1/" role="search">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form class="searchform" role="search" >
 		<div class="flex-row relative">
 			<div class="flex-col flex-grow">
 	   	   <input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search" />
@@ -974,6 +1060,9 @@ var flatsomeVars = {"ajaxurl":"https:\/\/v1\/wp-admin\/admin-ajax.php","rtl":"",
 <script type='text/javascript' src='../../wp-content/themes/sangtao24h/assets/slider/js/lightslider.min.js'></script>
 <script type='text/javascript' src="../../wp-content/themes/sangtao24h/assets/js/jquery.lockfixed.min.js" /></script>
 <script language="javascript" src="../../wp-content/themes/sangtao24h/assets/js/custom.js"></script>
+<script type='text/javascript' src='../../timkiem.js'></script>
+<script type='text/javascript' src='../../timkiem2.js'></script>
+<script type='text/javascript' src='../../timkiem3.js'></script>
 
 
 </body>
