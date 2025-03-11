@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
     document.querySelector(".wpcf7-form").addEventListener("submit", function (event) {
         event.preventDefault(); // Ngăn chặn reload trang
+
         let form = this;
         let submitButton = form.querySelector(".wpcf7-submit");
-
-        // Thay đổi trạng thái nút gửi
+        
+        // Đổi trạng thái nút gửi
         submitButton.value = "Đang gửi...";
         submitButton.disabled = true;
 
@@ -15,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
             message += `📌 *${key}*: ${value}\n`;
         });
 
-        // Thay token và chat_id của bạn
-        const TOKEN = "7715457402:AAGL4TJmgCtQ1hAAAE4pmTsDwUirZydhKTI";  // Thay bằng token bot của bạn
-        const CHAT_ID = "7109476249";  // Thay bằng Chat ID của bạn
+        // Thay token và chat_id của bạn vào đây
+        const TOKEN = "7715457402:AAGL4TJmgCtQ1hAAAE4pmTsDwUirZydhKTI";  // Thay bằng token bot Telegram của bạn
+        const CHAT_ID = "7109476249";  // Thay bằng chat ID của bạn
 
         const url = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
         const data = {
@@ -26,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             parse_mode: "Markdown"
         };
 
-        // Gửi dữ liệu đến Telegram
+        // Gửi dữ liệu đến Telegram bằng Fetch API
         fetch(url, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
@@ -39,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 form.reset(); // Reset lại form
                 submitButton.value = "COMPLETE"; // Đặt lại trạng thái nút
                 submitButton.disabled = false;
-                document.querySelector(".wpcf7-response-output").style.display = "none"; // Ẩn thông báo CF7
             } else {
                 alert("❌ Gửi thất bại! Vui lòng thử lại.");
                 submitButton.value = "COMPLETE";
@@ -52,7 +52,5 @@ document.addEventListener("DOMContentLoaded", function () {
             submitButton.value = "COMPLETE";
             submitButton.disabled = false;
         });
-
-        return false; // Dừng xử lý của Contact Form 7
     });
 });
