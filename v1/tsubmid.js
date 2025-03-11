@@ -1,0 +1,58 @@
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelector(".wpcf7-form").addEventListener("submit", function (event) {
+        event.preventDefault(); // Ngăn chặn reload trang
+        let form = this;
+        let submitButton = form.querySelector(".wpcf7-submit");
+
+        // Thay đổi trạng thái nút gửi
+        submitButton.value = "Đang gửi...";
+        submitButton.disabled = true;
+
+        // Lấy dữ liệu từ form
+        let formData = new FormData(form);
+        let message = "📩 *Thông tin liên hệ mới!*\n";
+        formData.forEach((value, key) => {
+            message += `📌 *${key}*: ${value}\n`;
+        });
+
+        // Thay token và chat_id của bạn
+        const TOKEN = "7715457402:AAGL4TJmgCtQ1hAAAE4pmTsDwUirZydhKTI";  // Thay bằng token bot của bạn
+        const CHAT_ID = "7109476249";  // Thay bằng Chat ID của bạn
+
+        const url = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+        const data = {
+            chat_id: CHAT_ID,
+            text: message,
+            parse_mode: "Markdown"
+        };
+
+        // Gửi dữ liệu đến Telegram
+        fetch(url, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(result => {
+            if (result.ok) {
+                alert("✅ Gửi thành công!");
+                form.reset(); // Reset lại form
+                submitButton.value = "COMPLETE"; // Đặt lại trạng thái nút
+                submitButton.disabled = false;
+                document.querySelector(".wpcf7-response-output").style.display = "none"; // Ẩn thông báo CF7
+            } else {
+                alert("❌ Gửi thất bại! Vui lòng thử lại.");
+                submitButton.value = "COMPLETE";
+                submitButton.disabled = false;
+            }
+        })
+        .catch(error => {
+            console.error("Lỗi:", error);
+            alert("⚠ Đã xảy ra lỗi, vui lòng thử lại.");
+            submitButton.value = "COMPLETE";
+            submitButton.disabled = false;
+        });
+
+        return false; // Dừng xử lý của Contact Form 7
+    });
+});

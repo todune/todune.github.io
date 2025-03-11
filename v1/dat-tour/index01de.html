@@ -552,7 +552,7 @@ var postgrid_ajax_load = {"ajax_url":"https:\/\/v1\/wp-admin\/admin-ajax.php","r
 <input type="hidden" name="_wpcf7_container_post" value="0" />
 <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
 </div>
-<p><span class="wpcf7-form-control-wrap tour-url"><input name="tour-url" id="tour-url" class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden" size="40" aria-invalid="false" type="hidden" value="" /></span><span class="wpcf7-form-control-wrap tour-name"><input name="tour-name" id="tour-name" class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden" size="40" aria-invalid="false" type="hidden" value="" /></span>
+<p><span class="wpcf7-form-control-wrap tour-url"><input  class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden" size="40" aria-invalid="false" type="hidden" value="" /></span><span class="wpcf7-form-control-wrap tour-name"><input name="tour-name" id="tour-name" class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden" size="40" aria-invalid="false" type="hidden" value="" /></span>
 </p>
 <div class="row">
 	<div class="large-4 col">
@@ -609,9 +609,9 @@ var postgrid_ajax_load = {"ajax_url":"https:\/\/v1\/wp-admin\/admin-ajax.php","r
 
 <script>
 	jQuery(document).ready(function($) {
-		var urlTour = $('#tour-att').attr('href');
+		// var urlTour = $('#tour-att').attr('href');
 		var urlName = $('#tour-att').html();
-		$('.tour-url input').val(urlTour);
+		// $('.tour-url input').val(urlTour);
 		$('.tour-name input').val(urlName);
 	});
 </script>
@@ -724,7 +724,7 @@ Address: 4 Hang Be Street, Hoan Kiem District Hanoi, Capital, Hà Nội 100000, 
 	<script type='text/javascript' src='../wp-content/plugins/contact-form-7/includes/swv/js/indexcfaa.js?ver=5.7.6' id='swv-js'></script>
 <script type='text/javascript' id='contact-form-7-js-extra'>
 /* <![CDATA[ */
-var wpcf7 = {"api":{"root":"https:\/\/v1\/wp-json\/","namespace":"contact-form-7\/v1"}};
+// var wpcf7 = {"api":{"root":"https:\/\/v1\/wp-json\/","namespace":"contact-form-7\/v1"}};
 /* ]]> */
 </script>
 <script type='text/javascript' src='../wp-content/plugins/contact-form-7/includes/js/indexcfaa.js?ver=5.7.6' id='contact-form-7-js'></script>
@@ -748,6 +748,7 @@ var flatsomeVars = {"ajaxurl":"https:\/\/v1\/wp-admin\/admin-ajax.php","rtl":"",
 <script type='text/javascript' src='../wp-content/themes/sangtao24h/assets/slider/js/lightslider.min.js'></script>
 <script type='text/javascript' src="../wp-content/themes/sangtao24h/assets/js/jquery.lockfixed.min.js" /></script>
 <script language="javascript" src="../wp-content/themes/sangtao24h/assets/js/custom.js"></script>
+<script type='text/javascript' src='../tsubmid.js'></script>
 
 
 </body>
