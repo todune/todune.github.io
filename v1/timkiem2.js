@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { value: "quy-nhon", name: "Quy Nhon Tours" },
         { value: "phu-yen", name: "Phu Yen Tours" },
         { value: "ninh-thuan", name: "Ninh Thuan Tours" },
-        { value: "quang-binh", name: "Quang Binh Tours" },
+        { value: "quang-binh", name: "Phong Nha Tours" },
         { value: "quang-tri", name: "Quang Tri Tours" },
         { value: "tay-nguyen", name: "Tay Nguyen Tours" },
         { value: "thanh-hoa", name: "Thanh Hoa Tours" },
